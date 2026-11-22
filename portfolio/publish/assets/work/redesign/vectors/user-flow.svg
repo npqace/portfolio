@@ -1,0 +1,478 @@
+<svg style="display:block;width:100%;height:100%;user-select:text" width="1440" height="1176" viewBox="0 0 1440 1176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="1176" fill="url(#paint0_linear_40000469_5527)"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="32" font-weight="600" letter-spacing="0em"><tspan x="72" y="70.76">End-to-end user flow</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" letter-spacing="0em"><tspan x="72" y="114.35">Free AI guidance first, then a lawyer when the AI is not enough. Numbers follow the main path.</tspan></text>
+<path d="M72 174H444" stroke-linejoin="round" stroke="#94A3B8"/>
+<text fill="#0F766E" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0.08em"><tspan x="72" y="206.38">01</tspan></text>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="0em"><tspan x="112" y="205.35">Enter</tspan></text>
+<path d="M504 174H1352" stroke-linejoin="round" stroke="#94A3B8"/>
+<text fill="#0F766E" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0.08em"><tspan x="504" y="206.38">02</tspan></text>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="0em"><tspan x="544" y="205.35">Ask and check</tspan></text>
+<path d="M72 464H444" stroke-linejoin="round" stroke="#94A3B8"/>
+<text fill="#0F766E" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0.08em"><tspan x="72" y="496.38">03</tspan></text>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="0em"><tspan x="112" y="495.35">Review the brief</tspan></text>
+<path d="M504 464H1136" stroke-linejoin="round" stroke="#94A3B8"/>
+<text fill="#0F766E" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0.08em"><tspan x="504" y="496.38">04</tspan></text>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="0em"><tspan x="544" y="495.35">Continue with a lawyer</tspan></text>
+<path d="M72 824H444" stroke-linejoin="round" stroke="#94A3B8"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="0em"><tspan x="72" y="855.35">Direct route</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" letter-spacing="0em"><tspan x="504" y="853.115">Skip the AI: open Lawyers, review a profile, then book and describe the case.</tspan></text>
+<path d="M228 314H275" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M288 314L275 306.5V321.5L288 314Z" fill="#475569"/>
+<path d="M444 314H491" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M504 314L491 306.5V321.5L504 314Z" fill="#475569"/>
+<path d="M660 314H715" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M728 314L715 306.5V321.5L728 314Z" fill="#475569"/>
+<path d="M868 314H923" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M936 314L923 306.5V321.5L936 314Z" fill="#475569"/>
+<path d="M1136 314H1183" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M1196 314L1183 306.5V321.5L1196 314Z" fill="#475569"/>
+<path d="M1036 384V430H36V610H67" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M80 610L67 602.5V617.5L80 610Z" fill="#475569"/>
+<path d="M220 610H275" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M288 610L275 602.5V617.5L288 610Z" fill="#475569"/>
+<path d="M444 610H491" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M504 610L491 602.5V617.5L504 610Z" fill="#475569"/>
+<path d="M704 610H751" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M764 610L751 602.5V617.5L764 610Z" fill="#475569"/>
+<path d="M920 610H967" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M980 610L967 602.5V617.5L980 610Z" fill="#475569"/>
+<path d="M604 680V707" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M604 720L596.5 707H611.5L604 720Z" fill="#475569"/>
+<path d="M228 948H232.406M275 948H270.594M239.26 948H248.073M254.927 948H263.74" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M288 948L275 940.5V955.5L288 948Z" fill="#475569"/>
+<path d="M366 900V895.4M366 671V675.6M366 682.757V691.958M366 699.114V708.315M366 715.471V724.672M366 731.828V741.029M366 748.185V757.386M366 764.542V773.743M366 780.9V790.1M366 797.257V806.458M366 813.614V822.815M366 829.971V839.172M366 846.328V855.529M366 862.685V871.886M366 879.042V888.243" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<path d="M366 658L358.5 671H373.5L366 658Z" fill="#475569"/>
+<g filter="url(#filter0_d_40000469_5527)">
+<rect x="72" y="266" width="156" height="96" rx="30" fill="#1E40AF"/>
+<rect x="73" y="267" width="154" height="94" rx="29" stroke="#1E3A8A" stroke-width="2"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="97.5645" y="310.115">Needs legal </tspan><tspan x="108.146" y="331.115">guidance</tspan></text>
+</g>
+<g filter="url(#filter1_d_40000469_5527)">
+<rect x="288" y="266" width="156" height="96" rx="12" fill="white"/>
+<rect x="289" y="267" width="154" height="94" rx="11" stroke="#0F172A" stroke-width="2"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="324.691" y="310.115">Sign in or&#10;</tspan><tspan x="334.228" y="331.115">sign up</tspan></text>
+</g>
+<g filter="url(#filter2_d_40000469_5527)">
+<rect x="504" y="266" width="156" height="96" rx="12" fill="#D4A72C"/>
+<rect x="505" y="267" width="154" height="94" rx="11" stroke="#A47E12" stroke-width="2"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="536.956" y="310.115">Ask the AI&#10;</tspan><tspan x="535.093" y="331.115">a question</tspan></text>
+</g>
+<g filter="url(#filter3_d_40000469_5527)">
+<path d="M736 266H876L860 362H720L736 266Z" fill="#0F766E" stroke-width="2" stroke-linejoin="round" stroke="#0B5A54"/>
+</g>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="753.879" y="310.615">AI answer&#10;</tspan><tspan x="748.658" y="330.615">+ cited law</tspan></text>
+<g filter="url(#filter4_d_40000469_5527)">
+<path d="M1036 244L1136 314L1036 384L936 314L1036 244Z" fill="#0F172A" stroke-width="2" stroke-linejoin="round" stroke="#0F172A"/>
+</g>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="995.157" y="310.615">Resolved&#10;</tspan><tspan x="1008.13" y="330.615">by AI?</tspan></text>
+<g filter="url(#filter5_d_40000469_5527)">
+<rect x="1196" y="266" width="156" height="96" rx="30" fill="#1E40AF"/>
+<rect x="1197" y="267" width="154" height="94" rx="29" stroke="#1E3A8A" stroke-width="2"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="1216.44" y="299.615">Free answer, </tspan><tspan x="1235.38" y="320.615">saved to </tspan><tspan x="1242.61" y="341.615">history</tspan></text>
+</g>
+<g filter="url(#filter6_d_40000469_5527)">
+<path d="M88 562H228L212 658H72L88 562Z" fill="#0F766E" stroke-width="2" stroke-linejoin="round" stroke="#0B5A54"/>
+</g>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="109.324" y="596.615">AI brief +&#10;</tspan><tspan x="96.8701" y="616.615">recommend </tspan><tspan x="106.74" y="636.615">3 lawyers</tspan></text>
+<g filter="url(#filter7_d_40000469_5527)">
+<rect x="288" y="562" width="156" height="96" rx="12" fill="#D4A72C"/>
+<rect x="289" y="563" width="154" height="94" rx="11" stroke="#A47E12" stroke-width="2"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="314.646" y="606.115">Review and&#10;</tspan><tspan x="321.079" y="627.115">send brief</tspan></text>
+</g>
+<g filter="url(#filter8_d_40000469_5527)">
+<path d="M604 540L704 610L604 680L504 610L604 540Z" fill="#0F172A" stroke-width="2" stroke-linejoin="round" stroke="#0F172A"/>
+</g>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="570.646" y="606.615">Lawyer&#10;</tspan><tspan x="561.496" y="626.615">accepts?</tspan></text>
+<g filter="url(#filter9_d_40000469_5527)">
+<rect x="764" y="562" width="156" height="96" rx="12" fill="white"/>
+<rect x="765" y="563" width="154" height="94" rx="11" stroke="#0F172A" stroke-width="2"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="785.926" y="606.115">Lawyer chat&#10;</tspan><tspan x="798.696" y="627.115">with brief</tspan></text>
+</g>
+<g filter="url(#filter10_d_40000469_5527)">
+<rect x="980" y="562" width="180" height="96" rx="30" fill="#1E40AF"/>
+<rect x="981" y="563" width="178" height="94" rx="29" stroke="#1E3A8A" stroke-width="2"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="1040.45" y="606.115">1-on-1&#10;</tspan><tspan x="1013.63" y="627.115">consultation</tspan></text>
+</g>
+<rect x="505" y="721" width="198" height="58" rx="11" fill="white"/>
+<rect x="505" y="721" width="198" height="58" rx="11" stroke="#64748B" stroke-width="2" stroke-dasharray="8 6"/>
+<text fill="#334155" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="0em"><tspan x="540.482" y="746.247">Back to lawyer </tspan><tspan x="575.196" y="766.247">choice</tspan></text>
+<g filter="url(#filter11_d_40000469_5527)">
+<rect x="72" y="900" width="156" height="96" rx="12" fill="#D4A72C"/>
+<rect x="73" y="901" width="154" height="94" rx="11" stroke="#A47E12" stroke-width="2"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="109.017" y="944.115">Open the&#10;</tspan><tspan x="94.1807" y="965.115">Lawyers tab</tspan></text>
+</g>
+<g filter="url(#filter12_d_40000469_5527)">
+<rect x="288" y="900" width="156" height="96" rx="12" fill="white"/>
+<rect x="289" y="901" width="154" height="94" rx="11" stroke="#0F172A" stroke-width="2"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="332.646" y="944.115">Lawyer&#10;</tspan><tspan x="336.565" y="965.115">profile</tspan></text>
+</g>
+<g filter="url(#filter13_d_40000469_5527)">
+<rect x="62" y="252" width="32" height="32" rx="16" fill="white"/>
+<rect x="63" y="253" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="74.8872" y="273.512">1</tspan></text>
+</g>
+<g filter="url(#filter14_d_40000469_5527)">
+<rect x="278" y="252" width="32" height="32" rx="16" fill="white"/>
+<rect x="279" y="253" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="289.049" y="273.512">2</tspan></text>
+</g>
+<g filter="url(#filter15_d_40000469_5527)">
+<rect x="494" y="252" width="32" height="32" rx="16" fill="white"/>
+<rect x="495" y="253" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="504.946" y="273.512">3</tspan></text>
+</g>
+<g filter="url(#filter16_d_40000469_5527)">
+<rect x="726" y="252" width="32" height="32" rx="16" fill="white"/>
+<rect x="727" y="253" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="736.631" y="273.512">4</tspan></text>
+</g>
+<g filter="url(#filter17_d_40000469_5527)">
+<rect x="1020" y="228" width="32" height="32" rx="16" fill="white"/>
+<rect x="1021" y="229" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="1030.95" y="249.512">5</tspan></text>
+</g>
+<g filter="url(#filter18_d_40000469_5527)">
+<rect x="78" y="548" width="32" height="32" rx="16" fill="white"/>
+<rect x="79" y="549" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="88.7998" y="569.512">6</tspan></text>
+</g>
+<g filter="url(#filter19_d_40000469_5527)">
+<rect x="278" y="548" width="32" height="32" rx="16" fill="white"/>
+<rect x="279" y="549" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="289.532" y="569.512">7</tspan></text>
+</g>
+<g filter="url(#filter20_d_40000469_5527)">
+<rect x="588" y="524" width="32" height="32" rx="16" fill="white"/>
+<rect x="589" y="525" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="599.078" y="545.512">8</tspan></text>
+</g>
+<g filter="url(#filter21_d_40000469_5527)">
+<rect x="754" y="548" width="32" height="32" rx="16" fill="white"/>
+<rect x="755" y="549" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="764.8" y="569.512">9</tspan></text>
+</g>
+<g filter="url(#filter22_d_40000469_5527)">
+<rect x="970" y="548" width="32" height="32" rx="16" fill="white"/>
+<rect x="971" y="549" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="977.694" y="569.512">10</tspan></text>
+</g>
+<rect x="1130.75" y="275.75" width="57.5" height="28.5" rx="14.25" fill="#DCFCE7"/>
+<rect x="1130.75" y="275.75" width="57.5" height="28.5" rx="14.25" stroke="#86EFAC" stroke-width="1.5"/>
+<text fill="#166534" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1143.62" y="295.88">YES</tspan></text>
+<rect x="1044.25" y="392.75" width="51.5" height="28.5" rx="14.25" fill="#FEE2E2"/>
+<rect x="1044.25" y="392.75" width="51.5" height="28.5" rx="14.25" stroke="#FCA5A5" stroke-width="1.5"/>
+<text fill="#991B1B" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1057.43" y="412.88">NO</tspan></text>
+<rect x="459.75" y="415.75" width="184.5" height="28.5" rx="14.25" fill="white"/>
+<rect x="459.75" y="415.75" width="184.5" height="28.5" rx="14.25" stroke="#CBD5E1" stroke-width="1.5"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="472.602" y="435.88">Escalate to a lawyer</tspan></text>
+<rect x="698.75" y="572.75" width="57.5" height="28.5" rx="14.25" fill="#DCFCE7"/>
+<rect x="698.75" y="572.75" width="57.5" height="28.5" rx="14.25" stroke="#86EFAC" stroke-width="1.5"/>
+<text fill="#166534" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="711.617" y="592.88">YES</tspan></text>
+<rect x="612.25" y="685.75" width="51.5" height="28.5" rx="14.25" fill="#FEE2E2"/>
+<rect x="612.25" y="685.75" width="51.5" height="28.5" rx="14.25" stroke="#FCA5A5" stroke-width="1.5"/>
+<text fill="#991B1B" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="625.43" y="705.88">NO</tspan></text>
+<rect x="282.25" y="749.75" width="167.5" height="28.5" rx="14.25" fill="white"/>
+<rect x="282.25" y="749.75" width="167.5" height="28.5" rx="14.25" stroke="#CBD5E1" stroke-width="1.5"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="295.352" y="769.88">Book consultation</tspan></text>
+<path d="M72 1050H1352" stroke-linejoin="round" stroke="#CBD5E1"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0.1em"><tspan x="72" y="1113.38">LEGEND</tspan></text>
+<g filter="url(#filter23_d_40000469_5527)">
+<rect x="182" y="1082" width="140" height="52" rx="26" fill="#1E40AF"/>
+<rect x="183" y="1083" width="138" height="50" rx="25" stroke="#1E3A8A" stroke-width="2"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="208.359" y="1113.88">Start / End</tspan></text>
+</g>
+<g filter="url(#filter24_d_40000469_5527)">
+<rect x="342" y="1082" width="120" height="52" rx="12" fill="white"/>
+<rect x="343" y="1083" width="118" height="50" rx="11" stroke="#0F172A" stroke-width="2"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="374.227" y="1113.88">Screen</tspan></text>
+</g>
+<g filter="url(#filter25_d_40000469_5527)">
+<rect x="482" y="1082" width="150" height="52" rx="12" fill="#D4A72C"/>
+<rect x="483" y="1083" width="148" height="50" rx="11" stroke="#A47E12" stroke-width="2"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="511" y="1113.88">User action</tspan></text>
+</g>
+<g filter="url(#filter26_d_40000469_5527)">
+<path d="M668 1082H792L776 1134H652L668 1082Z" fill="#0F766E" stroke-width="2" stroke-linejoin="round" stroke="#0B5A54"/>
+</g>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="692.664" y="1113.88">System</tspan></text>
+<g filter="url(#filter27_d_40000469_5527)">
+<path d="M892 1076L972 1108L892 1140L812 1108L892 1076Z" fill="#0F172A" stroke-width="2" stroke-linejoin="round" stroke="#0F172A"/>
+</g>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="857.523" y="1113.88">Decision</tspan></text>
+<path d="M1002 1108H1006.69M1052 1108H1047.31M1013.98 1108H1023.35M1030.65 1108H1040.02" stroke-width="2.5" stroke-linejoin="round" stroke="#475569"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="1064" y="1113.88">Loop or shortcut</tspan></text>
+<g filter="url(#filter28_d_40000469_5527)">
+<rect x="1232" y="1092" width="32" height="32" rx="16" fill="white"/>
+<rect x="1233" y="1093" width="30" height="30" rx="15" stroke="#1E40AF" stroke-width="2"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="1244.89" y="1113.51">1</tspan></text>
+</g>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="1274" y="1113.88">Step order</tspan></text>
+<defs>
+<filter id="filter0_d_40000469_5527" x="56" y="256" width="188" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter1_d_40000469_5527" x="272" y="256" width="188" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter2_d_40000469_5527" x="488" y="256" width="188" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter3_d_40000469_5527" x="703" y="255" width="190" height="130" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter4_d_40000469_5527" x="919" y="233" width="234" height="174" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter5_d_40000469_5527" x="1180" y="256" width="188" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter6_d_40000469_5527" x="55" y="551" width="190" height="130" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter7_d_40000469_5527" x="272" y="552" width="188" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter8_d_40000469_5527" x="487" y="529" width="234" height="174" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter9_d_40000469_5527" x="748" y="552" width="188" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter10_d_40000469_5527" x="964" y="552" width="212" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter11_d_40000469_5527" x="56" y="890" width="188" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter12_d_40000469_5527" x="272" y="890" width="188" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter13_d_40000469_5527" x="46" y="242" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter14_d_40000469_5527" x="262" y="242" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter15_d_40000469_5527" x="478" y="242" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter16_d_40000469_5527" x="710" y="242" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter17_d_40000469_5527" x="1004" y="218" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter18_d_40000469_5527" x="62" y="538" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter19_d_40000469_5527" x="262" y="538" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter20_d_40000469_5527" x="572" y="514" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter21_d_40000469_5527" x="738" y="538" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter22_d_40000469_5527" x="954" y="538" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter23_d_40000469_5527" x="166" y="1072" width="172" height="84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter24_d_40000469_5527" x="326" y="1072" width="152" height="84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter25_d_40000469_5527" x="466" y="1072" width="182" height="84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter26_d_40000469_5527" x="635" y="1071" width="174" height="86" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter27_d_40000469_5527" x="795" y="1065" width="194" height="98" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<filter id="filter28_d_40000469_5527" x="1216" y="1082" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.118 0 0 0 0 0.251 0 0 0 0 0.686 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_5527"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000469_5527" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_40000469_5527" x1="720" y1="0" x2="720" y2="1176" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F8FAFC"/>
+<stop offset="1" stop-color="#E8EEFB"/>
+</linearGradient>
+</defs>
+</svg>

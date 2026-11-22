@@ -1,0 +1,167 @@
+<svg style="display:block;width:100%;height:100%;user-select:text" width="393" height="852" viewBox="44 10 393 852" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Follow the steps</title><defs><clipPath id="screen-edge"><rect x="44" y="10" width="393" height="852" rx="36"/></clipPath></defs><g clip-path="url(#screen-edge)">
+<g>
+<rect x="44" y="10" width="393" height="852" rx="36" fill="white"/>
+<rect x="44.5" y="10.5" width="392" height="851" rx="35.5" stroke="#1E40AF" stroke-opacity="0.1"/>
+<rect width="393" height="56" transform="translate(44 11)" fill="white"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="SF Pro, Arial, sans-serif" font-size="17" font-weight="590" letter-spacing="0px"><tspan x="94.2715" y="46.209">9:41</tspan></text>
+<rect x="178" y="21.666" width="125" height="37" rx="18.5" fill="black"/>
+<path d="M323.986 41.5801C324.286 41.5801 324.555 41.65 324.805 41.7998C325.055 41.9498 325.256 42.1504 325.406 42.4004C325.556 42.6502 325.625 42.92 325.625 43.2197V44.6904C325.625 44.9901 325.556 45.26 325.406 45.5098C325.256 45.7598 325.055 45.9604 324.805 46.1104C324.555 46.2601 324.286 46.33 323.986 46.3301C323.686 46.3301 323.406 46.2602 323.156 46.1104C322.906 45.9604 322.705 45.7598 322.555 45.5098C322.405 45.26 322.336 44.9901 322.335 44.6904V43.2197C322.335 42.92 322.405 42.6502 322.555 42.4004C322.705 42.1504 322.906 41.9498 323.156 41.7998C323.406 41.6499 323.686 41.5801 323.986 41.5801ZM329.335 39.3604C329.635 39.3604 329.906 39.4301 330.156 39.5801C330.406 39.73 330.605 39.9299 330.755 40.1797C330.905 40.4297 330.975 40.7 330.975 41V44.6904C330.975 44.9902 330.905 45.2599 330.755 45.5098C330.605 45.7597 330.406 45.9604 330.156 46.1104C329.906 46.2604 329.635 46.3301 329.335 46.3301C329.035 46.3301 328.755 46.2603 328.505 46.1104C328.255 45.9604 328.056 45.7598 327.906 45.5098C327.756 45.2599 327.685 44.9803 327.685 44.6904V41C327.685 40.7 327.756 40.4297 327.906 40.1797C328.056 39.9299 328.256 39.73 328.505 39.5801C328.755 39.4301 329.035 39.3604 329.335 39.3604ZM340.026 34C340.326 34.0001 340.595 34.0699 340.845 34.2197C341.095 34.3697 341.296 34.5703 341.446 34.8203C341.596 35.0701 341.665 35.3399 341.666 35.6396V44.6904C341.665 44.9901 341.596 45.26 341.446 45.5098C341.296 45.7598 341.095 45.9604 340.845 46.1104C340.595 46.2601 340.326 46.33 340.026 46.3301C339.726 46.3301 339.446 46.2602 339.196 46.1104C338.946 45.9604 338.745 45.7598 338.595 45.5098C338.445 45.26 338.376 44.9901 338.375 44.6904V35.6396C338.376 35.3399 338.445 35.0701 338.595 34.8203C338.745 34.5703 338.946 34.3697 339.196 34.2197C339.446 34.0699 339.726 34 340.026 34ZM334.685 36.79C334.985 36.79 335.255 36.8598 335.505 37.0098C335.755 37.1598 335.955 37.3604 336.105 37.6104C336.255 37.8603 336.326 38.1298 336.326 38.4297V44.6797C336.326 44.9797 336.255 45.25 336.105 45.5C335.955 45.7499 335.755 45.9497 335.505 46.0996C335.255 46.2496 334.985 46.3203 334.685 46.3203C334.385 46.3203 334.105 46.2603 333.855 46.1104C333.605 45.9704 333.405 45.7697 333.255 45.5098C333.105 45.2598 333.036 44.9796 333.036 44.6797V38.4297C333.036 38.1299 333.106 37.8602 333.255 37.6104C333.405 37.3604 333.605 37.1597 333.855 37.0098C334.105 36.8598 334.385 36.7901 334.685 36.79Z" fill="black"/>
+<path d="M349.024 38.7693C349.443 39.2006 350.097 39.1267 350.627 38.6584C352.377 37.0809 354.56 36.2676 357.001 36.2676C359.442 36.2676 361.636 37.1056 363.375 38.6584C363.892 39.139 364.546 39.1883 364.977 38.7693C365.409 38.3256 365.47 37.6602 365.027 37.1919C363.177 35.3063 360.157 34 357.001 34C353.845 34 350.812 35.3186 348.975 37.2042C348.531 37.6602 348.58 38.3256 349.024 38.7816V38.7693ZM352.069 41.8626C352.55 42.3309 353.166 42.2816 353.709 41.8379C354.597 41.1355 355.78 40.6548 357.001 40.6672C358.209 40.6672 359.392 41.1355 360.292 41.8502C360.835 42.2939 361.476 42.3185 361.944 41.8502C362.401 41.3819 362.475 40.6672 361.994 40.2235C360.798 39.1513 358.998 38.3996 357.013 38.3996C355.028 38.3996 353.216 39.1513 352.032 40.2235C351.613 40.6179 351.527 41.2957 352.082 41.8626H352.069ZM356.187 45.954C356.717 46.4593 357.272 46.4593 357.802 45.954L358.801 44.9928C359.331 44.4752 359.442 43.822 358.838 43.3784C358.332 43.021 357.691 42.7868 357.001 42.7868C356.31 42.7868 355.657 43.021 355.164 43.3907C354.56 43.822 354.683 44.4875 355.213 44.9928L356.199 45.954H356.187Z" fill-rule="evenodd" clip-rule="evenodd" fill="black"/>
+<path d="M398.334 37.986V41.9952C398.734 41.885 399.665 40.9929 399.665 39.9906C399.665 38.9883 398.734 38.0962 398.334 37.986ZM397.333 41.1633C397.333 41.3738 397.333 41.5843 397.333 41.7948C397.333 41.9752 397.333 42.1456 397.333 42.326C397.323 42.7169 397.303 43.0978 397.233 43.4887C397.163 43.8796 397.053 44.2404 396.873 44.5912C396.693 44.942 396.463 45.2528 396.193 45.5234C395.923 45.794 395.603 46.0245 395.262 46.205C394.912 46.3854 394.552 46.4956 394.162 46.5658C393.782 46.6359 393.392 46.656 393.001 46.666C392.821 46.666 392.651 46.666 392.471 46.666C392.261 46.666 392.051 46.666 391.841 46.666H377.824C377.614 46.666 377.404 46.666 377.194 46.666C377.014 46.666 376.844 46.666 376.664 46.666C376.273 46.656 375.893 46.6359 375.503 46.5658C375.113 46.4956 374.753 46.3854 374.403 46.205C374.062 46.0245 373.742 45.794 373.472 45.5234C373.202 45.2528 372.972 44.932 372.792 44.5912C372.612 44.2404 372.502 43.8796 372.432 43.4887C372.362 43.1078 372.342 42.7169 372.332 42.326C372.332 42.1456 372.332 41.9752 372.332 41.7948C372.332 41.5843 372.332 41.3738 372.332 41.1633V39.1587C372.332 38.9482 372.332 38.7377 372.332 38.5272C372.332 38.3468 372.332 38.1764 372.332 37.996C372.342 37.6051 372.362 37.2242 372.432 36.8433C372.502 36.4524 372.612 36.0916 372.792 35.7408C372.972 35.39 373.202 35.0793 373.472 34.8087C373.742 34.538 374.062 34.3075 374.403 34.1271C374.753 33.9467 375.113 33.8364 375.503 33.7662C375.883 33.6961 376.273 33.676 376.664 33.666C376.844 33.666 377.014 33.666 377.194 33.666C377.404 33.666 377.614 33.666 377.824 33.666H391.831C392.041 33.666 392.251 33.666 392.461 33.666C392.641 33.666 392.811 33.666 392.991 33.666C393.382 33.676 393.762 33.6961 394.152 33.7662C394.542 33.8364 394.902 33.9467 395.252 34.1271C395.603 34.3075 395.913 34.538 396.183 34.8087C396.453 35.0793 396.683 35.4 396.863 35.7408C397.043 36.0916 397.153 36.4524 397.223 36.8433C397.293 37.2242 397.313 37.6151 397.323 37.996C397.323 38.1764 397.323 38.3468 397.323 38.5272C397.323 38.7377 397.323 38.9482 397.323 39.1587V41.1633H397.333Z" fill-rule="evenodd" clip-rule="evenodd" fill="black"/>
+<path d="M76 104L70 98L76 92" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#475569"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="0px"><tspan x="93" y="96.35">Labor Dispute Mediation</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" letter-spacing="0px"><tspan x="93" y="117.41">Code: 1.004892 - Dept. of Labor (DOLISA)</tspan></text>
+<path d="M392 82.5H416C417.933 82.5 419.5 84.067 419.5 86V110C419.5 111.933 417.933 113.5 416 113.5H392C390.067 113.5 388.5 111.933 388.5 110V86C388.5 84.067 390.067 82.5 392 82.5Z" fill="#F8FAFC"/>
+<path d="M392 82.5H416C417.933 82.5 419.5 84.067 419.5 86V110C419.5 111.933 417.933 113.5 416 113.5H392C390.067 113.5 388.5 111.933 388.5 110V86C388.5 84.067 390.067 82.5 392 82.5Z" stroke="#E2E8F0"/>
+<path d="M408.167 90.5C408.609 90.5 409.033 90.6756 409.345 90.9882C409.658 91.3007 409.833 91.7246 409.833 92.1667V104.667C409.833 104.813 409.795 104.956 409.722 105.082C409.649 105.209 409.544 105.314 409.418 105.387C409.292 105.46 409.149 105.499 409.003 105.5C408.857 105.5 408.713 105.462 408.587 105.39L404.827 103.242C404.575 103.098 404.29 103.022 404 103.022C403.71 103.022 403.425 103.098 403.173 103.242L399.413 105.39C399.287 105.462 399.143 105.5 398.997 105.5C398.851 105.499 398.708 105.46 398.582 105.387C398.456 105.314 398.351 105.209 398.278 105.082C398.205 104.956 398.167 104.813 398.167 104.667V92.1667C398.167 91.7246 398.342 91.3007 398.655 90.9882C398.967 90.6756 399.391 90.5 399.833 90.5H408.167Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#475569"/>
+<g filter="url(#filter1_i_40000469_7654)">
+<rect width="119.667" height="38" transform="translate(61 137)" fill="white"/>
+<text fill="#64748B" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" letter-spacing="0px"><tspan x="92.4505" y="161.145">Full Text</tspan></text>
+</g>
+<g filter="url(#filter2_ii_40000469_7654)">
+<rect width="119.667" height="38" transform="translate(180.667 137)" fill="white"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="0px"><tspan x="212.09" y="161.145">Schema</tspan></text>
+</g>
+<g filter="url(#filter3_i_40000469_7654)">
+<rect width="119.667" height="38" transform="translate(300.333 137)" fill="white"/>
+<text fill="#64748B" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" letter-spacing="0px"><tspan x="333.93" y="161.145">Related</tspan></text>
+</g>
+<path d="M69 183.5H162C166.142 183.5 169.5 186.858 169.5 191V201C169.5 205.142 166.142 208.5 162 208.5H69C64.8579 208.5 61.5 205.142 61.5 201V191C61.5 186.858 64.8579 183.5 69 183.5Z" fill="#EFF6FF"/>
+<path d="M69 183.5H162C166.142 183.5 169.5 186.858 169.5 191V201C169.5 205.142 166.142 208.5 162 208.5H69C64.8579 208.5 61.5 205.142 61.5 201V191C61.5 186.858 64.8579 183.5 69 183.5Z" stroke="#BFDBFE"/>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="68" y="200.41">5 Working Days</tspan></text>
+<path d="M186 183.5H279C283.142 183.5 286.5 186.858 286.5 191V201C286.5 205.142 283.142 208.5 279 208.5H186C181.858 208.5 178.5 205.142 178.5 201V191C178.5 186.858 181.858 183.5 186 183.5Z" fill="#F0FDF4"/>
+<path d="M186 183.5H279C283.142 183.5 286.5 186.858 286.5 191V201C286.5 205.142 283.142 208.5 279 208.5H186C181.858 208.5 178.5 205.142 178.5 201V191C178.5 186.858 181.858 183.5 186 183.5Z" stroke="#CBD5E1"/>
+<text fill="#15803D" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="199" y="200.41">Fee: 0 VND</tspan></text>
+<path d="M303 183.5H412C416.142 183.5 419.5 186.858 419.5 191V209C419.5 213.142 416.142 216.5 412 216.5H303C298.858 216.5 295.5 213.142 295.5 209V191C295.5 186.858 298.858 183.5 303 183.5Z" fill="#F8FAFC"/>
+<path d="M303 183.5H412C416.142 183.5 419.5 186.858 419.5 191V209C419.5 213.142 416.142 216.5 412 216.5H303C298.858 216.5 295.5 213.142 295.5 209V191C295.5 186.858 298.858 183.5 303 183.5Z" stroke="#E2E8F0"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="315.055" y="204.41">Online Level 4</tspan></text>
+<g clip-path="url(#clip0_40000469_7654)">
+<mask id="path-22-inside-1_40000469_7654" fill="white">
+<path d="M45 225H436V733H45V225Z"/>
+</mask>
+<path d="M45 225H436V733H45V225Z" fill="#F8FAFC"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="61" y="246.41">EXECUTION WORKFLOW SCHEMA (ART. 188 LABOR CODE)</tspan></text>
+<path d="M61 278.5C61 271.596 66.5964 266 73.5 266C80.4036 266 86 271.596 86 278.5C86 285.404 80.4036 291 73.5 291C66.5964 291 61 285.404 61 278.5Z" fill="#1E40AF"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" letter-spacing="0px"><tspan x="70.5" y="283.645">1</tspan></text>
+<path d="M61 370.5C61 363.596 66.5964 358 73.5 358C80.4036 358 86 363.596 86 370.5C86 377.404 80.4036 383 73.5 383C66.5964 383 61 377.404 61 370.5Z" fill="#1E40AF"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" letter-spacing="0px"><tspan x="68.5" y="375.645">2</tspan></text>
+<path d="M61 462.5C61 455.596 66.5964 450 73.5 450C80.4036 450 86 455.596 86 462.5C86 469.404 80.4036 475 73.5 475C66.5964 475 61 469.404 61 462.5Z" fill="#1E40AF"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" letter-spacing="0px"><tspan x="68.5" y="467.645">3</tspan></text>
+<path d="M61 554.5C61 547.596 66.5964 542 73.5 542C80.4036 542 86 547.596 86 554.5C86 561.404 80.4036 567 73.5 567C66.5964 567 61 561.404 61 554.5Z" fill="#15803D"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" letter-spacing="0px"><tspan x="68.5" y="559.645">4</tspan></text>
+<path d="M73 291L73 293.094M73 358L73 355.906M73 297.281L73 301.469M73 305.656L73 309.844M73 314.031L73 318.219M73 322.406L73 326.594M73 330.781L73 334.969M73 339.156L73 343.344M73 347.531L73 351.719" stroke-width="2" stroke="#CBD5E1"/>
+<path d="M73 383L73 385.094M73 450L73 447.906M73 389.281L73 393.469M73 397.656L73 401.844M73 406.031L73 410.219M73 414.406L73 418.594M73 422.781L73 426.969M73 431.156L73 435.344M73 439.531L73 443.719" stroke-width="2" stroke="#CBD5E1"/>
+<path d="M73 475L73 477.094M73 542L73 539.906M73 481.281L73 485.469M73 489.656L73 493.844M73 498.031L73 502.219M73 506.406L73 510.594M73 514.781L73 518.969M73 523.156L73 527.344M73 531.531L73 535.719" stroke-width="2" stroke="#CBD5E1"/>
+<path d="M73 567L73 569.063M73 600L73 597.938M73 573.188L73 577.313M73 581.438L73 585.563M73 589.688L73 593.813" stroke-width="2" stroke="#CBD5E1"/>
+<path d="M106 258.5H408C414.351 258.5 419.5 263.649 419.5 270V328C419.5 334.351 414.351 339.5 408 339.5H106C99.6487 339.5 94.5 334.351 94.5 328V270C94.5 263.649 99.6487 258.5 106 258.5Z" fill="white"/>
+<path d="M106 258.5H408C414.351 258.5 419.5 263.649 419.5 270V328C419.5 334.351 414.351 339.5 408 339.5H106C99.6487 339.5 94.5 334.351 94.5 328V270C94.5 263.649 99.6487 258.5 106 258.5Z" stroke="#CBD5E1"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="0px"><tspan x="107" y="286.145">Submit Mediation Request Dossier</tspan></text>
+<text fill="#1E40AF" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="375" y="285.41">Day 1</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" letter-spacing="0px"><tspan x="107" y="307.41">File Form 01/LD + draft contract evidence via </tspan><tspan x="107" y="323.41">National Public Service Portal or District DOLISA.</tspan></text>
+<path d="M106 348.5H408C414.351 348.5 419.5 353.649 419.5 360V418C419.5 424.351 414.351 429.5 408 429.5H106C99.6487 429.5 94.5 424.351 94.5 418V360C94.5 353.649 99.6487 348.5 106 348.5Z" fill="white"/>
+<path d="M106 348.5H408C414.351 348.5 419.5 353.649 419.5 360V418C419.5 424.351 414.351 429.5 408 429.5H106C99.6487 429.5 94.5 424.351 94.5 418V360C94.5 353.649 99.6487 348.5 106 348.5Z" stroke="#CBD5E1"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="0px"><tspan x="107" y="376.145">Labor Mediator Appointment</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="359" y="375.41">Day 1-2</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" letter-spacing="0px"><tspan x="107" y="397.41">DOLISA assigns a certified Labor Mediator and </tspan><tspan x="107" y="413.41">notifies both employee and employer.</tspan></text>
+<path d="M106 438.5H408C414.351 438.5 419.5 443.649 419.5 450V508C419.5 514.351 414.351 519.5 408 519.5H106C99.6487 519.5 94.5 514.351 94.5 508V450C94.5 443.649 99.6487 438.5 106 438.5Z" fill="white"/>
+<path d="M106 438.5H408C414.351 438.5 419.5 443.649 419.5 450V508C419.5 514.351 414.351 519.5 408 519.5H106C99.6487 519.5 94.5 514.351 94.5 508V450C94.5 443.649 99.6487 438.5 106 438.5Z" stroke="#CBD5E1"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="0px"><tspan x="107" y="466.145">Mandatory Mediation Hearing</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="356" y="465.41">Day 3-4</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" letter-spacing="0px"><tspan x="107" y="487.41">Mediator proposes settlement option. Employer </tspan><tspan x="107" y="503.41">must attend or authorize a legal representative.</tspan></text>
+<path d="M106 528.5H408C414.351 528.5 419.5 533.649 419.5 540V618C419.5 624.351 414.351 629.5 408 629.5H106C99.6487 629.5 94.5 624.351 94.5 618V540C94.5 533.649 99.6487 528.5 106 528.5Z" fill="white"/>
+<path d="M106 528.5H408C414.351 528.5 419.5 533.649 419.5 540V618C419.5 624.351 414.351 629.5 408 629.5H106C99.6487 629.5 94.5 624.351 94.5 618V540C94.5 533.649 99.6487 528.5 106 528.5Z" stroke="#CBD5E1"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="111" y="557.41">Settlement Record or Court Escalation</tspan></text>
+<text fill="#15803D" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="368" y="557.41">Day 5</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" letter-spacing="0px"><tspan x="111" y="577.41">Issue binding Mediation Minutes (or Non-</tspan><tspan x="111" y="593.41">Settlement Record allowing immediate filing at </tspan><tspan x="111" y="609.41">People&#39;s Court).</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="0px"><tspan x="61" y="658.41">REQUIRED DOSSIER TEMPLATE (RELATED)</tspan></text>
+<path d="M69 670.5H412C416.142 670.5 419.5 673.858 419.5 678V728C419.5 732.142 416.142 735.5 412 735.5H69C64.8579 735.5 61.5 732.142 61.5 728V678C61.5 673.858 64.8579 670.5 69 670.5Z" fill="white"/>
+<path d="M69 670.5H412C416.142 670.5 419.5 673.858 419.5 678V728C419.5 732.142 416.142 735.5 412 735.5H69C64.8579 735.5 61.5 732.142 61.5 728V678C61.5 673.858 64.8579 670.5 69 670.5Z" stroke="#CBD5E1"/>
+<path d="M70 691C70 688.791 71.7909 687 74 687H98C100.209 687 102 688.791 102 691V715C102 717.209 100.209 719 98 719H74C71.7909 719 70 717.209 70 715V691Z" fill="#EFF6FF"/>
+<path d="M88 693H80C79.4696 693 78.9609 693.211 78.5858 693.586C78.2107 693.961 78 694.47 78 695V711C78 711.53 78.2107 712.039 78.5858 712.414C78.9609 712.789 79.4696 713 80 713H92C92.5304 713 93.0391 712.789 93.4142 712.414C93.7893 712.039 94 711.53 94 711V699M88 693C88.3166 692.999 88.6301 693.062 88.9225 693.183C89.215 693.304 89.4806 693.482 89.704 693.706L93.292 697.294C93.5168 697.518 93.6952 697.783 93.8167 698.076C93.9382 698.369 94.0005 698.683 94 699M88 693V698C88 698.265 88.1054 698.52 88.2929 698.707C88.4804 698.895 88.7348 699 89 699L94 699M84 700H82M90 704H82M90 708H82" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#1E40AF"/>
+<text fill="#0F172A" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="0px"><tspan x="106" y="694.145">Form 01/LD - Mediation Request</tspan></text>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" letter-spacing="0px"><tspan x="106" y="719.41">Official MOLISA Template</tspan></text>
+<path d="M261 707C261 704.791 262.791 703 265 703H351C353.209 703 355 704.791 355 707V723C355 725.209 353.209 727 351 727H265C262.791 727 261 725.209 261 723V707Z" fill="#F8FAFC"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" letter-spacing="0px"><tspan x="265" y="719.41">Auto-fill ready</tspan></text>
+<path d="M375 687.5H399C400.933 687.5 402.5 689.067 402.5 691V715C402.5 716.933 400.933 718.5 399 718.5H375C373.067 718.5 371.5 716.933 371.5 715V691C371.5 689.067 373.067 687.5 375 687.5Z" fill="#F8FAFC"/>
+<path d="M375 687.5H399C400.933 687.5 402.5 689.067 402.5 691V715C402.5 716.933 400.933 718.5 399 718.5H375C373.067 718.5 371.5 716.933 371.5 715V691C371.5 689.067 373.067 687.5 375 687.5Z" stroke="#E2E8F0"/>
+<path d="M387 706V694M392 701L387 706L382 701M396 706V710C396 710.53 395.789 711.039 395.414 711.414C395.039 711.789 394.53 712 394 712H380C379.47 712 378.961 711.789 378.586 711.414C378.211 711.039 378 710.53 378 710V706" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#475569"/>
+</g>
+<path d="M45 225V226H436V225V224H45V225ZM436 733V732H45V733V734H436V733Z" fill="#E2E8F0" mask="url(#path-22-inside-1_40000469_7654)"/>
+<path d="M69 741.5H217.5C221.642 741.5 225 744.858 225 749V767C225 771.142 221.642 774.5 217.5 774.5H69C64.8579 774.5 61.5 771.142 61.5 767V749C61.5 744.858 64.8579 741.5 69 741.5Z" fill="#F8FAFC"/>
+<path d="M69 741.5H217.5C221.642 741.5 225 744.858 225 749V767C225 771.142 221.642 774.5 217.5 774.5H69C64.8579 774.5 61.5 771.142 61.5 767V749C61.5 744.858 64.8579 741.5 69 741.5Z" stroke="#E2E8F0"/>
+<text fill="#475569" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0px"><tspan x="85.6309" y="762.41">Ask AI How to File</tspan></text>
+<path d="M233.5 750C233.5 745.582 237.082 742 241.5 742H412C416.418 742 420 745.582 420 750V766C420 770.418 416.418 774 412 774H241.5C237.082 774 233.5 770.418 233.5 766V750Z" fill="#1E40AF"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0px"><tspan x="263.264" y="762.41">Hire Lawyer for Filing</tspan></text>
+<mask id="path-67-outside-2_40000469_7654" maskUnits="userSpaceOnUse" x="45" y="782" width="391" height="57" fill="black">
+<rect fill="white" x="45" y="782" width="391" height="57"/>
+<path d="M45 783H436V839H45V783Z"/>
+</mask>
+<path d="M45 783H436V839H45V783Z" fill="white"/>
+<path d="M45 783V783.2H436V783V782.8H45V783Z" fill="#444444" mask="url(#path-67-outside-2_40000469_7654)"/>
+<path d="M86.1001 793H78.1001C77.5697 793 77.061 793.211 76.6859 793.586C76.3108 793.961 76.1001 794.47 76.1001 795V811C76.1001 811.53 76.3108 812.039 76.6859 812.414C77.061 812.789 77.5697 813 78.1001 813H90.1001C90.6305 813 91.1392 812.789 91.5143 812.414C91.8894 812.039 92.1001 811.53 92.1001 811V799M86.1001 793C86.4167 792.999 86.7302 793.062 87.0226 793.183C87.3151 793.304 87.5807 793.482 87.8041 793.706L91.3921 797.294C91.6169 797.518 91.7953 797.783 91.9168 798.076C92.0383 798.369 92.1006 798.683 92.1001 799M86.1001 793V798C86.1001 798.265 86.2055 798.52 86.393 798.707C86.5805 798.895 86.8349 799 87.1001 799L92.1001 799M82.1001 800H80.1001M88.1001 804H80.1001M88.1001 808H80.1001" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#224EC5"/>
+<text fill="#224EC5" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="65.6001" y="828.175">Lookup</tspan></text>
+<path d="M164.3 804L155.919 812.38C155.722 812.577 155.488 812.733 155.231 812.84C154.973 812.947 154.698 813.002 154.419 813.002C153.856 813.002 153.317 812.778 152.919 812.381C152.521 811.983 152.297 811.443 152.297 810.88C152.297 810.318 152.52 809.778 152.918 809.38L161.302 800.999M166.3 807L172.3 801M171.8 801.5L163.8 793.5M158.3 799L164.3 793M158.8 798.5L166.8 806.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#64748B"/>
+<text fill="#64748B" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="141.3" y="828.175">Lawyers</tspan></text>
+<rect x="220.5" y="791" width="40" height="40" rx="20" fill="#DBEAFE"/>
+<path d="M239.517 801.814C239.56 801.585 239.682 801.378 239.861 801.229C240.041 801.08 240.267 800.998 240.5 800.998C240.733 800.998 240.959 801.08 241.139 801.229C241.318 801.378 241.44 801.585 241.483 801.814L242.534 807.372C242.609 807.768 242.801 808.131 243.085 808.415C243.369 808.7 243.733 808.892 244.128 808.966L249.686 810.017C249.915 810.06 250.123 810.182 250.272 810.362C250.421 810.541 250.502 810.767 250.502 811C250.502 811.234 250.421 811.46 250.272 811.639C250.123 811.819 249.915 811.941 249.686 811.983L244.128 813.034C243.733 813.109 243.369 813.301 243.085 813.585C242.801 813.87 242.609 814.233 242.534 814.628L241.483 820.186C241.44 820.416 241.318 820.623 241.139 820.772C240.959 820.921 240.733 821.003 240.5 821.003C240.267 821.003 240.041 820.921 239.861 820.772C239.682 820.623 239.56 820.416 239.517 820.186L238.466 814.628C238.391 814.233 238.199 813.87 237.915 813.585C237.631 813.301 237.267 813.109 236.872 813.034L231.314 811.983C231.085 811.941 230.877 811.819 230.728 811.639C230.579 811.46 230.498 811.234 230.498 811C230.498 810.767 230.579 810.541 230.728 810.362C230.877 810.182 231.085 810.06 231.314 810.017L236.872 808.966C237.267 808.892 237.631 808.7 237.915 808.415C238.199 808.131 238.391 807.768 238.466 807.372L239.517 801.814Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#64748B"/>
+<path d="M316.8 793.182C318.055 792.939 319.345 792.939 320.6 793.182M320.6 812.818C319.345 813.061 318.055 813.061 316.8 812.818M322.7 800L317.2 805.5L314.7 803M324.309 794.721C325.37 795.44 326.284 796.357 326.999 797.421M308.882 804.9C308.639 803.645 308.639 802.355 308.882 801.1M326.979 808.609C326.26 809.671 325.343 810.584 324.279 811.299M328.518 801.1C328.761 802.355 328.761 803.645 328.518 804.9M310.421 797.391C311.14 796.33 312.057 795.416 313.121 794.701M313.091 811.279C312.03 810.56 311.116 809.643 310.401 808.579" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#64748B"/>
+<text fill="#64748B" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="296.2" y="828.175">Requests</tspan></text>
+<path d="M403.9 812V810C403.9 808.939 403.479 807.922 402.728 807.172C401.978 806.421 400.961 806 399.9 806H393.9C392.839 806 391.822 806.421 391.072 807.172C390.321 807.922 389.9 808.939 389.9 810V812M400.9 798C400.9 800.209 399.109 802 396.9 802C394.691 802 392.9 800.209 392.9 798C392.9 795.791 394.691 794 396.9 794C399.109 794 400.9 795.791 400.9 798Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#64748B"/>
+<text fill="#64748B" style="white-space: pre" xml:space="preserve" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="380.9" y="828.175">Profile</tspan></text>
+<rect width="390" height="22" transform="translate(45.5 839)" fill="white"/>
+<rect x="168.5" y="848" width="144" height="5" rx="2.5" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_dd_40000469_7654" x="-2" y="0" width="485" height="944" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="14" operator="erode" in="SourceAlpha" result="effect1_dropShadow_40000469_7654"/>
+<feOffset dy="36"/>
+<feGaussianBlur stdDeviation="30"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.117647 0 0 0 0 0.25098 0 0 0 0 0.686275 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000469_7654"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="4" operator="erode" in="SourceAlpha" result="effect2_dropShadow_40000469_7654"/>
+<feOffset dy="10"/>
+<feGaussianBlur stdDeviation="12"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0588235 0 0 0 0 0.0901961 0 0 0 0 0.164706 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_40000469_7654" result="effect2_dropShadow_40000469_7654"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_40000469_7654" result="shape"/>
+</filter>
+<filter id="filter1_i_40000469_7654" x="61" y="137" width="119.667" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.886275 0 0 0 0 0.909804 0 0 0 0 0.941176 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_40000469_7654"/>
+</filter>
+<filter id="filter2_ii_40000469_7654" x="180.667" y="137" width="119.667" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_40000469_7654"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.117647 0 0 0 0 0.25098 0 0 0 0 0.686275 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_40000469_7654" result="effect2_innerShadow_40000469_7654"/>
+</filter>
+<filter id="filter3_i_40000469_7654" x="300.333" y="137" width="119.667" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.886275 0 0 0 0 0.909804 0 0 0 0 0.941176 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_40000469_7654"/>
+</filter>
+<clipPath id="clip0_40000469_7654">
+<path d="M45 225H436V733H45V225Z" fill="white"/>
+</clipPath>
+</defs>
+</g></svg>

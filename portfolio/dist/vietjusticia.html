@@ -9,6 +9,7 @@
   <script src="assets/theme.js"></script>
   <link rel="stylesheet" href="assets/site.css">
   <link rel="stylesheet" href="assets/redesign.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&amp;display=swap">
   <script src="assets/redesign.js" defer></script>
 </head>
 <body id="top" class="redesign">
@@ -22,24 +23,69 @@
   <main id="main">
     <section class="vj-cover" aria-labelledby="case-title">
       <div class="wrap cover-inner">
-        <div class="cover-copy"><p class="vj-kicker">VietJusticIA / Mobile redesign</p>
-          <h1 id="case-title">Legal clarity.<br><em>Confident <br>next steps.</em></h1>
-          <p class="cover-intro">A mobile redesign for people navigating Vietnamese law.</p>
-          <a class="cover-link" href="#screens">Explore the app screens</a>
+        <div class="cover-copy"><p class="vj-kicker">Solo product design <span aria-hidden="true">/</span> Mobile app</p>
+          <h1 id="case-title">VietJusticIA</h1>
+          <p class="cover-statement">From a legal question<br><em>to a lawyer.</em></p>
+          <p class="cover-intro">A redesign for people in Vietnam who need to check a legal answer, read its source and decide what to do next.</p>
+          <a class="cover-link" href="#flow">Follow the contract journey</a>
         </div>
-        <img class="cover-art" src="assets/work/redesign/cover.webp" width="1150" height="1031" alt="Two VietJusticIA phones showing a lawyer profile and the legal assistant, with a contract case and lawyer match alongside." fetchpriority="high">
+        <div class="cover-devices">
+          <img class="device-answer" src="assets/work/redesign/contract-answer.webp" width="700" height="1516" alt="The assistant answers a graduate’s question about their first employment contract." fetchpriority="high">
+          <img class="device-brief" src="assets/work/redesign/handover.webp" width="700" height="1516" alt="The handover sheet carries the case brief and citations to a selected specialist.">
+        </div>
       </div>
     </section>
-    <nav class="vj-index wrap" aria-label="Case study sections"><a href="#brief">Brief</a><a href="#audit">Audit</a><a href="#structure">Sitemap</a><a href="#flow">User flow</a><a href="#wireframes">Wireframes</a><a href="#system">Visual system</a><a href="#screens">App screens</a><a href="#outcome">Outcome</a></nav>
+    <nav class="phase-nav" id="contents" aria-labelledby="contents-title">
+      <div class="wrap">
+        <div class="contents-head"><h2 id="contents-title">Contents</h2><p>12 chapters <span aria-hidden="true">/</span> 4 phases</p></div>
+        <div class="contents-grid">
+          <div>
+            <h3>Understand</h3>
+            <ul>
+              <li><a href="#brief"><span aria-hidden="true">01</span>Project overview</a></li>
+              <li><a href="#audit"><span aria-hidden="true">02</span>Interface audit</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Structure</h3>
+            <ul>
+              <li><a href="#structure"><span aria-hidden="true">03</span>Sitemap</a></li>
+              <li><a href="#flow"><span aria-hidden="true">04</span>User flows</a></li>
+              <li><a href="#wireframes"><span aria-hidden="true">05</span>Wireframes</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Design</h3>
+            <ul>
+              <li><a href="#system"><span aria-hidden="true">06</span>Visual system</a></li>
+              <li><a href="#access"><span aria-hidden="true">07</span>Access &amp; account</a></li>
+              <li><a href="#assistant"><span aria-hidden="true">08</span>AI assistance</a></li>
+              <li><a href="#lookup"><span aria-hidden="true">09</span>Legal lookup</a></li>
+              <li><a href="#handoff"><span aria-hidden="true">10</span>Specialists &amp; cases</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Deliver</h3>
+            <ul>
+              <li><a href="#device-mockup"><span aria-hidden="true">11</span>Device mockup</a></li>
+              <li><a href="#outcome"><span aria-hidden="true">12</span>Design outcome</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
     <section class="vj-section wrap briefing" id="brief">
-      <div><p class="vj-kicker">The brief</p><h2>Where do you start with a legal question?</h2></div>
+      <div><p class="vj-kicker chapter-tag"><span>01</span>Project overview</p><h2>Where do you start with a legal question?</h2></div>
       <div><p class="vj-lede">I built the original VietJusticIA for my computing degree. For this solo redesign, I followed one question across the app. What happens when a graduate is asked to hand over their original diploma for a first job?</p>
       <p>A reader might find what they need in the Labor Code. If they want a lawyer’s opinion, they should be able to take the question, the cited article and the conversation with them.</p>
       <dl class="credits"><div><dt>Designed for</dt><dd>Citizens and small-business owners in Vietnam</dd></div><div><dt>My role</dt><dd>Solo product designer</dd></div><div><dt>Scope</dt><dd>Interface audit, information architecture, wireframes, visual identity and mobile UI</dd></div></dl></div>
     </section>
     <section class="vj-band"><div class="vj-section wrap" id="audit">
-      <div class="vj-heading"><div><p class="vj-kicker">Interface audit</p><h2>The menu hid the next step.</h2></div><p>In the original app, basic tasks took four to five taps. I traced the paths to a document and a lawyer, then looked at what happened when a reader hit an error.</p></div>
-      <div class="audit-gallery">
+      <div class="vj-heading"><div><p class="vj-kicker chapter-tag"><span>02</span>Interface audit</p><h2>The menu hid the next step.</h2></div><p>In the original app, basic tasks took four to five taps. I traced the paths to a document and a lawyer, then looked at what happened when a reader hit an error.</p></div>
+      <fieldset class="audit-compare"><legend class="sr-only">Compare the original app with the redesign</legend>
+        <input type="radio" name="audit-version" id="audit-original" checked><label for="audit-original">Original app</label>
+        <input type="radio" name="audit-version" id="audit-updated"><label for="audit-updated">Redesign</label>
+      <div class="audit-gallery audit-before">
         <figure>
           <a class="evidence" data-enlarge href="assets/work/audit-menu.webp" aria-label="Enlarge navigation menu">
             <img src="assets/work/audit-menu.webp" width="439" height="848" alt="Navigation menu with Vietnamese entries for legal lookup and contacting a lawyer." loading="lazy">
@@ -59,64 +105,115 @@
           <figcaption>An invalid code opened an alert over the verification dialog.</figcaption>
         </figure>
       </div>
+      <div class="audit-gallery audit-after">
+        <figure><a class="evidence" data-enlarge href="assets/work/redesign/vectors/legal-documents.svg" aria-label="Enlarge Redesigned lookup screen with five bottom navigation destinations"><img src="assets/work/redesign/legal-documents.webp" width="700" height="1516" alt="Redesigned lookup screen with five bottom navigation destinations" loading="lazy"></a><figcaption>Lookup and Lawyers each have a permanent place in the bottom bar.</figcaption></figure>
+        <figure><a class="evidence" data-enlarge href="assets/work/redesign/vectors/statute-reader.svg" aria-label="Enlarge Single-column statute reader with article navigation"><img src="assets/work/redesign/statute-reader.webp" width="700" height="1516" alt="Single-column statute reader with article navigation" loading="lazy"></a><figcaption>The reader follows one column and can jump directly to an article.</figcaption></figure>
+        <figure><a class="evidence" data-enlarge href="assets/work/redesign/vectors/verify-account.svg" aria-label="Enlarge Dedicated verification screen with code entry and resend action"><img src="assets/work/redesign/verify-account.webp" width="700" height="1516" alt="Dedicated verification screen with code entry and resend action" loading="lazy"></a><figcaption>The account flow gives the verification code its own screen.</figcaption></figure>
+      </div></fieldset>
     </div></section>
-    <section class="vj-section wrap" id="structure">
-      <div class="vj-heading"><div><p class="vj-kicker">Information architecture</p><h2>Five destinations in view.</h2></div><p>I brought Lookup, Lawyers, AI Assistant, Requests and Profile into the bottom navigation. The design target was to put core actions within two taps.</p></div>
-      <a class="plate" href="assets/work/redesign/sitemap.webp" data-enlarge aria-label="Enlarge the product sitemap"><img src="assets/work/redesign/sitemap.webp" width="2360" height="1032" loading="lazy" decoding="async" alt="Product sitemap showing account access and the five persistent destinations, with document details, chat history, case tracking and profile settings."></a>
+    <section class="architecture"><div class="vj-section wrap" id="structure">
+      <div class="vj-heading"><div><p class="vj-kicker chapter-tag"><span>03</span>Sitemap</p><h2>Five destinations in view.</h2></div><p>I moved the library and lawyer directory out of the full-screen menu. Lookup, Lawyers, AI Assistant, Requests and Profile now share a persistent bottom bar.</p></div>
+      <dl class="audit-metrics"><div><dt>Basic tasks in the original audit</dt><dd>4–5 <small>taps</small></dd></div><div><dt>Design target for core actions</dt><dd>≤ 2 <small>taps</small></dd></div><div><dt>Persistent destinations</dt><dd>5 <small>tabs</small></dd></div></dl>
+      <details class="diagram-detail"><summary>Explore the product sitemap</summary><div class="diagram-vector"><object class="vector-art" type="image/svg+xml" data="assets/work/redesign/vectors/sitemap.svg" aria-label="Product sitemap showing account access and the five persistent destinations, with document details, chat history, case tracking and profile settings."><a href="assets/work/redesign/vectors/sitemap.svg">Product sitemap showing account access and the five persistent destinations, with document details, chat history, case tracking and profile settings.</a></object><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/sitemap.svg" aria-label="Enlarge the product sitemap">Enlarge the product sitemap</a></div></details>
+    </div></section>
+    <section class="vj-section wrap journey-section" id="flow">
+      <div class="vj-heading"><div><p class="vj-kicker chapter-tag"><span>04</span>User flows</p><h2>A first job offer raises a question.</h2></div><p>A graduate is asked to hand over their original diploma. Here’s how that question travels through the prototype.</p></div>
+      <ol class="journey-strip">
+        <li><div><h3>Ask about the contract</h3><p>The graduate describes the clause in their own words. The assistant’s reply cites the relevant Labor Code article.</p></div><a class="journey-phone plate" data-enlarge href="assets/work/redesign/vectors/contract-answer.svg" aria-label="Enlarge contract question and cited assistant answer"><img src="assets/work/redesign/contract-answer.webp" width="700" height="1516" alt="Contract question and cited assistant answer." loading="lazy"></a></li>
+        <li><div><h3>Check the source</h3><p>The citation opens the statute reader. If the article answers the question, the graduate can stop here and revisit the conversation later.</p></div><a class="journey-phone plate" data-enlarge href="assets/work/redesign/vectors/statute-reader.svg" aria-label="Enlarge article in the labor code reader"><img src="assets/work/redesign/statute-reader.webp" width="700" height="1516" alt="Article in the Labor Code reader." loading="lazy"></a></li>
+        <li><div><h3>Review the handover</h3><p>For a second opinion, the graduate checks the summary, transcript and citations, compares three specialists and sends the brief.</p></div><a class="journey-phone plate" data-enlarge href="assets/work/redesign/vectors/handover.svg" aria-label="Enlarge case handover with specialist matches and attached citations"><img src="assets/work/redesign/handover.webp" width="700" height="1516" alt="Case handover with specialist matches and attached citations." loading="lazy"></a></li>
+      </ol>
+      <p class="direct-route">Someone ready to speak to a lawyer can open the directory directly. Once a lawyer accepts, the brief stays pinned in their chat.</p>
+      <details class="diagram-detail"><summary>Explore the full user flow</summary><div class="diagram-vector"><object class="vector-art" type="image/svg+xml" data="assets/work/redesign/vectors/user-flow.svg" aria-label="End-to-end flow diagram with branches for saving the answer, requesting a lawyer, and choosing another specialist if the request is declined."><a href="assets/work/redesign/vectors/user-flow.svg">End-to-end flow diagram with branches for saving the answer, requesting a lawyer, and choosing another specialist if the request is declined.</a></object><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/user-flow.svg" aria-label="Enlarge the user flow">Enlarge the user flow</a></div></details>
     </section>
-    <section class="vj-band"><div class="vj-section wrap vj-split" id="flow">
-      <div><p class="vj-kicker">User flow</p><h2>A first job offer raises a question.</h2>
-      <ol class="story-steps"><li><strong>Ask and check.</strong> The graduate asks about the contract, opens the cited Labor Code article and can save the answer in chat history.</li><li><strong>Review the brief.</strong> If they need a second opinion, they can review the AI summary and compare three suggested specialists.</li><li><strong>Continue with a lawyer.</strong> Once a lawyer accepts, the brief stays pinned above the conversation.</li></ol>
-      <p>Someone who already knows they need a lawyer can go straight to the directory.</p></div>
-      <a class="plate" href="assets/work/redesign/user-flow.webp" data-enlarge aria-label="Enlarge the user flow"><img src="assets/work/redesign/user-flow.webp" width="2100" height="1506" loading="lazy" decoding="async" alt="End-to-end flow diagram with branches for saving the answer, requesting a lawyer, and choosing another specialist if the request is declined."></a>
-    </div></section>
-    <section class="vj-section wrap vj-split" id="wireframes">
-      <div><p class="vj-kicker">Wireframes</p><h2>Designing the reading order.</h2><p>I worked out what a reader needs to see before choosing a next step. In the library, it’s the document title and status. In a contract answer, it’s the cited article. In the directory, it’s a lawyer’s specialty and fee.</p></div>
-      <a class="plate" href="assets/work/wireframes.webp" data-enlarge aria-label="Enlarge the mobile wireframes"><img src="assets/work/wireframes.webp" width="1450" height="1041" loading="lazy" decoding="async" alt="Grayscale wireframes for the library, statute reader, assistant and lawyer directory."></a>
+    <section class="wireframe-section" id="wireframes" aria-label="Wireframes">
+      <div class="wireframe-backdrop" aria-hidden="true"><object class="vector-art" type="image/svg+xml" data="assets/work/redesign/vectors/wireframes.svg" tabindex="-1" aria-label="Grayscale mobile wireframes for account access, legal lookup, chat and lawyer consultations."><a href="assets/work/redesign/vectors/wireframes.svg">Grayscale mobile wireframes for account access, legal lookup, chat and lawyer consultations.</a></object></div>
+      <div class="wrap wireframe-caption">
+        <p class="vj-kicker chapter-tag"><span>05</span>Wireframes</p>
+        <p>I worked out what a reader needs to see before choosing a next step. In the library, it?s the document title and status. In a contract answer, it?s the cited article. In the directory, it?s a lawyer?s specialty and fee.</p>
+        <a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/wireframes.svg">Enlarge the wireframe board</a>
+      </div>
     </section>
     <section class="system-band"><div class="vj-section wrap" id="system">
-      <div class="vj-heading"><div><p class="vj-kicker">Identity &amp; UI system</p><h2>Official law. Human lawyers. Digital access.</h2></div><p>Three columns form a V and a J inside the shield. A gold keystone sits above them. Across the app, Be Vietnam Pro, shared tabs and 44 px fields give dense legal information a consistent reading order.</p></div>
-      <div class="identity-grid"><div class="identity-mark"><img src="assets/work/redesign/mark.webp" width="350" height="353" alt="VietJusticIA shield monogram with a gold keystone." loading="lazy"><div class="palette"><span>Justice Blue</span><span>Warm Gold</span><span>Deep Teal</span></div></div>
-      <a class="plate" href="assets/work/redesign/type.webp" data-enlarge aria-label="Enlarge the typography specimen"><img src="assets/work/redesign/type.webp" width="900" height="1041" loading="lazy" decoding="async" alt="Be Vietnam Pro type specimen showing display, title, body, caption and micro sizes."></a><a class="plate" href="assets/work/redesign/controls.webp" data-enlarge aria-label="Enlarge the reusable controls"><img src="assets/work/redesign/controls.webp" width="700" height="628" loading="lazy" decoding="async" alt="Reusable input field, primary and secondary buttons, and the Legal Docs and Procedures tabs."></a></div>
+      <div class="vj-heading"><div><p class="vj-kicker chapter-tag"><span>06</span>Visual system</p><h2>A visual language for reading the law.</h2></div>
+        <p>Across a statute, a case brief and a lawyer’s profile, readers encounter the same colors, type scale and controls.</p></div>
+
+      <section class="system-part" id="color-palette" aria-labelledby="palette-heading">
+        <h3 id="palette-heading">Color palette</h3>
+        <dl class="color-collage">
+          <div class="swatch-justice"><dt>Justice Blue</dt><dd><code>#1E40AF</code></dd></div>
+          <div class="swatch-gold"><dt>Warm Gold</dt><dd><code>#D4A72C</code></dd></div>
+          <div class="swatch-teal"><dt>Deep Teal</dt><dd><code>#0F766E</code></dd></div>
+        </dl>
+      </section>
+
+      <section class="system-part" id="typography" aria-labelledby="type-heading">
+        <h3 id="type-heading">Typography</h3>
+        <div class="type-sheet">
+          <span class="type-ghost" aria-hidden="true">Be Vietnam Pro</span>
+          <div class="type-intro"><h4>Be Vietnam Pro</h4>
+            <p lang="vi">Bộ luật<br>Lao động</p></div>
+          <table class="type-scale"><caption>Mobile type scale</caption>
+            <thead><tr><th scope="col">Style</th><th scope="col">Size / line height</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" class="type-display">Display</th><td>24 / 32 px</td></tr>
+              <tr><th scope="row" class="type-title">Title</th><td>20 / 28 px</td></tr>
+              <tr><th scope="row" class="type-body">Body</th><td>16 / 24 px</td></tr>
+              <tr><th scope="row" class="type-small">Body small</th><td>14 / 20 px</td></tr>
+              <tr><th scope="row" class="type-caption">Caption</th><td>12 / 16 px</td></tr>
+              <tr><th scope="row" class="type-micro">Micro</th><td>10 / 14 px</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="system-part" id="components" aria-labelledby="components-heading">
+        <h3 id="components-heading">Components</h3>
+        <div class="component-layout">
+          <div><h4>Reusable controls</h4><p>Account forms use 44 px fields. In legal lookup, the same underline marks the active tab for documents and procedures. Green and amber communicate status across the app.</p>
+            <dl class="library-counts"><div><dt>Reusable families</dt><dd>49</dd></div><div><dt>Source components</dt><dd>80</dd></div></dl></div>
+          <a class="component-plate plate" href="assets/work/redesign/controls.webp" data-enlarge aria-label="Enlarge reusable controls"><img src="assets/work/redesign/controls.webp" width="700" height="628" loading="lazy" decoding="async" alt="Email field, primary and secondary buttons, and the Legal Docs and Procedures tabs."></a>
+        </div>
+      </section>
     </div></section>
     <section class="vj-section wrap" id="screens">
       <div class="vj-heading"><div><p class="vj-kicker">Final mobile UI</p><h2>Inside VietJusticIA.</h2></div><p>Follow the graduate from a first sign-in to a consultation. Select a screen for a closer look.</p></div>
 <nav class="screen-index" aria-label="Screen collections"><a href="#access">Access &amp; account</a><a href="#assistant">AI assistance</a><a href="#lookup">Legal lookup</a><a href="#handoff">Specialists &amp; cases</a></nav>
-      <section class="screen-group" id="access" aria-label="Access &amp; account"><h3>Access &amp; account</h3><p>A shared account layout carries the reader through registration, verification and password recovery.</p><div class="screen-grid">
-        <figure><a class="plate" href="assets/work/redesign/welcome.webp" data-enlarge aria-label="Enlarge screen: Welcome"><img src="assets/work/redesign/welcome.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Introduction to the service with options to continue or sign in."></a><figcaption>Welcome</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/sign-up.webp" data-enlarge aria-label="Enlarge screen: Create an account"><img src="assets/work/redesign/sign-up.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Account form for a name, phone number, email and password."></a><figcaption>Create an account</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/verify-account.webp" data-enlarge aria-label="Enlarge screen: Verify a phone"><img src="assets/work/redesign/verify-account.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Six-digit verification code with a resend option."></a><figcaption>Verify a phone</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/sign-in.webp" data-enlarge aria-label="Enlarge screen: Sign in"><img src="assets/work/redesign/sign-in.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Returning reader sign-in form with password recovery."></a><figcaption>Sign in</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/reset-password.webp" data-enlarge aria-label="Enlarge screen: Reset a password"><img src="assets/work/redesign/reset-password.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Email field to request a reset link."></a><figcaption>Reset a password</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/new-password.webp" data-enlarge aria-label="Enlarge screen: Set a new password"><img src="assets/work/redesign/new-password.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Password and confirmation fields with requirements."></a><figcaption>Set a new password</figcaption></figure>
+      <section class="screen-group" id="access" aria-label="Access &amp; account"><h3 class="chapter-tag"><span>07</span>Access &amp; account</h3><p>A shared account layout carries the reader through registration, verification and password recovery.</p><div class="screen-grid">
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/welcome.svg" aria-label="Introduction to the service with options to continue or sign in."><a href="assets/work/redesign/vectors/welcome.svg">Introduction to the service with options to continue or sign in.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/welcome.svg" aria-label="Enlarge screen: Welcome">Welcome</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/sign-up.svg" aria-label="Account form for a name, phone number, email and password."><a href="assets/work/redesign/vectors/sign-up.svg">Account form for a name, phone number, email and password.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/sign-up.svg" aria-label="Enlarge screen: Create an account">Create an account</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/verify-account.svg" aria-label="Six-digit verification code with a resend option."><a href="assets/work/redesign/vectors/verify-account.svg">Six-digit verification code with a resend option.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/verify-account.svg" aria-label="Enlarge screen: Verify a phone">Verify a phone</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/sign-in.svg" aria-label="Returning reader sign-in form with password recovery."><a href="assets/work/redesign/vectors/sign-in.svg">Returning reader sign-in form with password recovery.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/sign-in.svg" aria-label="Enlarge screen: Sign in">Sign in</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/reset-password.svg" aria-label="Email field to request a reset link."><a href="assets/work/redesign/vectors/reset-password.svg">Email field to request a reset link.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/reset-password.svg" aria-label="Enlarge screen: Reset a password">Reset a password</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/new-password.svg" aria-label="Password and confirmation fields with requirements."><a href="assets/work/redesign/vectors/new-password.svg">Password and confirmation fields with requirements.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/new-password.svg" aria-label="Enlarge screen: Set a new password">Set a new password</a></figcaption></figure>
       </div></section>
-      <section class="screen-group" id="assistant" aria-label="AI assistance"><h3>AI assistance</h3><p>A suggested question starts the conversation. The answer links back to the law, and a handover sheet gathers the brief, citations and lawyer matches.</p><div class="screen-grid">
-        <figure><a class="plate" href="assets/work/redesign/new-conversation.webp" data-enlarge aria-label="Enlarge screen: Start a question"><img src="assets/work/redesign/new-conversation.webp" width="700" height="1516" loading="lazy" decoding="async" alt="New conversation with suggested legal topics."></a><figcaption>Start a question</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/contract-answer.webp" data-enlarge aria-label="Enlarge screen: Read the answer"><img src="assets/work/redesign/contract-answer.webp" width="700" height="1516" loading="lazy" decoding="async" alt="A graduate’s first-contract question and the assistant’s cited reply."></a><figcaption>Read the answer</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/handover.webp" data-enlarge aria-label="Enlarge screen: Review the brief"><img src="assets/work/redesign/handover.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Case brief, attached conversation and specialist choices before sending."></a><figcaption>Review the brief</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/history.webp" data-enlarge aria-label="Enlarge screen: Reopen a conversation"><img src="assets/work/redesign/history.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Chat history grouped into pinned, sent to lawyer and recent conversations."></a><figcaption>Reopen a conversation</figcaption></figure>
+      <section class="screen-group" id="assistant" aria-label="AI assistance"><h3 class="chapter-tag"><span>08</span>AI assistance</h3><p>A suggested question starts the conversation. The answer links back to the law, and a handover sheet gathers the brief, citations and lawyer matches.</p><div class="screen-grid">
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/new-conversation.svg" aria-label="New conversation with suggested legal topics."><a href="assets/work/redesign/vectors/new-conversation.svg">New conversation with suggested legal topics.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/new-conversation.svg" aria-label="Enlarge screen: Start a question">Start a question</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/contract-answer.svg" aria-label="A graduate’s first-contract question and the assistant’s cited reply."><a href="assets/work/redesign/vectors/contract-answer.svg">A graduate’s first-contract question and the assistant’s cited reply.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/contract-answer.svg" aria-label="Enlarge screen: Read the answer">Read the answer</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/handover.svg" aria-label="Case brief, attached conversation and specialist choices before sending."><a href="assets/work/redesign/vectors/handover.svg">Case brief, attached conversation and specialist choices before sending.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/handover.svg" aria-label="Enlarge screen: Review the brief">Review the brief</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/history.svg" aria-label="Chat history grouped into pinned, sent to lawyer and recent conversations."><a href="assets/work/redesign/vectors/history.svg">Chat history grouped into pinned, sent to lawyer and recent conversations.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/history.svg" aria-label="Enlarge screen: Reopen a conversation">Reopen a conversation</a></figcaption></figure>
       </div></section>
-      <section class="screen-group" id="lookup" aria-label="Legal lookup"><h3>Legal lookup</h3><p>Statutes and administrative procedures share an entry point. Each has its own filters and detail view, so readers can move from a rule to the steps for acting on it.</p><div class="screen-grid">
-        <figure><a class="plate" href="assets/work/redesign/legal-documents.webp" data-enlarge aria-label="Enlarge screen: Find a statute"><img src="assets/work/redesign/legal-documents.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Legal documents with titles, numbers and validity status."></a><figcaption>Find a statute</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/document-filters.webp" data-enlarge aria-label="Enlarge screen: Filter documents"><img src="assets/work/redesign/document-filters.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Filters for validity, legal domain, hierarchy and effective period."></a><figcaption>Filter documents</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/statute-reader.webp" data-enlarge aria-label="Enlarge screen: Read an article"><img src="assets/work/redesign/statute-reader.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Labor Code reader with article navigation and cited passages."></a><figcaption>Read an article</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/procedures.webp" data-enlarge aria-label="Enlarge screen: Find a procedure"><img src="assets/work/redesign/procedures.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Administrative procedure cards showing the agency, fee and processing time."></a><figcaption>Find a procedure</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/procedure-filters.webp" data-enlarge aria-label="Enlarge screen: Filter procedures"><img src="assets/work/redesign/procedure-filters.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Filters for submission method, handling agency and processing time."></a><figcaption>Filter procedures</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/procedure-schema.webp" data-enlarge aria-label="Enlarge screen: Follow the steps"><img src="assets/work/redesign/procedure-schema.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Labor dispute mediation timeline and required document templates."></a><figcaption>Follow the steps</figcaption></figure>
+      <section class="screen-group" id="lookup" aria-label="Legal lookup"><h3 class="chapter-tag"><span>09</span>Legal lookup</h3><p>Statutes and administrative procedures share an entry point. Each has its own filters and detail view, so readers can move from a rule to the steps for acting on it.</p><div class="screen-grid">
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/legal-documents.svg" aria-label="Legal documents with titles, numbers and validity status."><a href="assets/work/redesign/vectors/legal-documents.svg">Legal documents with titles, numbers and validity status.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/legal-documents.svg" aria-label="Enlarge screen: Find a statute">Find a statute</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/document-filters.svg" aria-label="Filters for validity, legal domain, hierarchy and effective period."><a href="assets/work/redesign/vectors/document-filters.svg">Filters for validity, legal domain, hierarchy and effective period.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/document-filters.svg" aria-label="Enlarge screen: Filter documents">Filter documents</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/statute-reader.svg" aria-label="Labor Code reader with article navigation and cited passages."><a href="assets/work/redesign/vectors/statute-reader.svg">Labor Code reader with article navigation and cited passages.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/statute-reader.svg" aria-label="Enlarge screen: Read an article">Read an article</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/procedures.svg" aria-label="Administrative procedure cards showing the agency, fee and processing time."><a href="assets/work/redesign/vectors/procedures.svg">Administrative procedure cards showing the agency, fee and processing time.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/procedures.svg" aria-label="Enlarge screen: Find a procedure">Find a procedure</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/procedure-filters.svg" aria-label="Filters for submission method, handling agency and processing time."><a href="assets/work/redesign/vectors/procedure-filters.svg">Filters for submission method, handling agency and processing time.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/procedure-filters.svg" aria-label="Enlarge screen: Filter procedures">Filter procedures</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/procedure-schema.svg" aria-label="Labor dispute mediation timeline and required document templates."><a href="assets/work/redesign/vectors/procedure-schema.svg">Labor dispute mediation timeline and required document templates.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/procedure-schema.svg" aria-label="Enlarge screen: Follow the steps">Follow the steps</a></figcaption></figure>
       </div></section>
-      <section class="screen-group" id="handoff" aria-label="Specialists &amp; cases"><h3>Specialists &amp; cases</h3><p>Readers can compare practice areas, verification, reviews and fees before sending a request. After acceptance, the brief stays with the lawyer chat.</p><div class="screen-grid">
-        <figure><a class="plate" href="assets/work/redesign/directory.webp" data-enlarge aria-label="Enlarge screen: Compare lawyers"><img src="assets/work/redesign/directory.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Specialist directory with practice areas, locations and consultation fees."></a><figcaption>Compare lawyers</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/specialist.webp" data-enlarge aria-label="Enlarge screen: View a specialist"><img src="assets/work/redesign/specialist.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Lawyer profile with verification, reviews, specialties and consultation fee."></a><figcaption>View a specialist</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/requests.webp" data-enlarge aria-label="Enlarge screen: Track the case"><img src="assets/work/redesign/requests.webp" width="700" height="1516" loading="lazy" decoding="async" alt="Active and closed requests with stages and latest activity."></a><figcaption>Track the case</figcaption></figure>
-        <figure><a class="plate" href="assets/work/redesign/lawyer-chat.webp" data-enlarge aria-label="Enlarge screen: Continue the conversation"><img src="assets/work/redesign/lawyer-chat.webp" width="700" height="1516" loading="lazy" decoding="async" alt="One-to-one lawyer chat with the original case brief pinned above it."></a><figcaption>Continue the conversation</figcaption></figure>
+      <section class="screen-group" id="handoff" aria-label="Specialists &amp; cases"><h3 class="chapter-tag"><span>10</span>Specialists &amp; cases</h3><p>Readers can compare practice areas, verification, reviews and fees before sending a request. After acceptance, the brief stays with the lawyer chat.</p><div class="screen-grid">
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/directory.svg" aria-label="Specialist directory with practice areas, locations and consultation fees."><a href="assets/work/redesign/vectors/directory.svg">Specialist directory with practice areas, locations and consultation fees.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/directory.svg" aria-label="Enlarge screen: Compare lawyers">Compare lawyers</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/specialist.svg" aria-label="Lawyer profile with verification, reviews, specialties and consultation fee."><a href="assets/work/redesign/vectors/specialist.svg">Lawyer profile with verification, reviews, specialties and consultation fee.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/specialist.svg" aria-label="Enlarge screen: View a specialist">View a specialist</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/requests.svg" aria-label="Active and closed requests with stages and latest activity."><a href="assets/work/redesign/vectors/requests.svg">Active and closed requests with stages and latest activity.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/requests.svg" aria-label="Enlarge screen: Track the case">Track the case</a></figcaption></figure>
+        <figure><object class="vector-art phone-vector" type="image/svg+xml" data="assets/work/redesign/vectors/lawyer-chat.svg" aria-label="One-to-one lawyer chat with the original case brief pinned above it."><a href="assets/work/redesign/vectors/lawyer-chat.svg">One-to-one lawyer chat with the original case brief pinned above it.</a></object><figcaption><a class="vector-expand" data-enlarge href="assets/work/redesign/vectors/lawyer-chat.svg" aria-label="Enlarge screen: Continue the conversation">Continue the conversation</a></figcaption></figure>
       </div></section>
     </section>
     <section class="vj-outcome" id="outcome"><div class="vj-section wrap vj-split">
-      <div><p class="vj-kicker">Design outcome</p><h2>One case from question to consultation.</h2><p>The graduate can leave with the cited law or send a reviewed brief to a lawyer. When the consultation begins, the lawyer already has the question and the sources behind it.</p>
+      <div><p class="vj-kicker chapter-tag"><span>12</span>Design outcome</p><h2>One case from question to consultation.</h2><p>The graduate can leave with the cited law or send a reviewed brief to a lawyer. When the consultation begins, the lawyer already has the question and the sources behind it.</p>
       <a class="text-link" href="https://www.behance.net/gallery/258814687/VietJusticIA-AI-Legal-Tech-Mobile-App-Redesign">View the original Behance presentation</a></div>
-      <a class="plate" href="assets/work/hero.webp" data-enlarge aria-label="Enlarge the mobile mockup"><img src="assets/work/hero.webp" width="1500" height="1050" loading="lazy" decoding="async" alt="Hands holding a phone with the finished contract review open in VietJusticIA."></a>
+      <div id="device-mockup"><p class="vj-kicker chapter-tag"><span>11</span>Device mockup</p><a class="plate" href="assets/work/hero.webp" data-enlarge aria-label="Enlarge the mobile mockup"><img src="assets/work/hero.webp" width="1500" height="1050" loading="lazy" decoding="async" alt="Hands holding a phone with the finished contract review open in VietJusticIA."></a></div>
     </div></section>
   </main>
-  <dialog class="art-viewer" aria-label="Enlarged project artwork"><div class="viewer-bar"><span id="viewer-title"></span><button type="button" autofocus>Close</button></div><div class="viewer-image"><img alt=""></div><a class="viewer-original" href="#">Open image at full size</a></dialog>
+  <dialog class="art-viewer" aria-label="Enlarged project artwork"><div class="viewer-bar"><span id="viewer-title"></span><button type="button" autofocus>Close</button></div><div class="viewer-image"><img alt=""><object type="image/svg+xml" hidden></object></div><a class="viewer-original" href="#">Open image at full size</a></dialog>
   <footer class="footer wrap"><a href="vietjusticia-platform.html">Explore the original platform</a><a href="#top">Back to top</a></footer>
 </body></html>

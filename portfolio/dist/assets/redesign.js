@@ -18,9 +18,13 @@ function selectTab(index) {
   });
 }
 
-function syncLocation() {
+function syncLocation(event) {
   const index = tabs.findIndex(tab => tab.hash === location.hash);
-  if (index >= 0) selectTab(index);
+  if (index < 0) return;
+  const wasHidden = groups[index].hidden;
+  selectTab(index);
+  // The browser cannot scroll to a hidden gallery chapter during fragment navigation.
+  if (event && wasHidden) groups[index].scrollIntoView();
 }
 
 function activateTab(index) {
@@ -51,6 +55,7 @@ tabs.forEach((tab, index) => {
 const viewer = document.querySelector(".art-viewer");
 if (typeof viewer.showModal === "function") {
   const image = viewer.querySelector("img");
+  const vector = viewer.querySelector("object");
   const title = viewer.querySelector("#viewer-title");
   const original = viewer.querySelector(".viewer-original");
   document.querySelectorAll("[data-enlarge]").forEach(link => {
@@ -60,12 +65,23 @@ if (typeof viewer.showModal === "function") {
       const label = link.closest("figure")?.querySelector("figcaption")?.textContent
         || link.getAttribute("aria-label").replace(/^Enlarge (the )?/i, "");
       title.textContent = label.charAt(0).toUpperCase() + label.slice(1);
-      image.alt = link.querySelector("img").alt;
-      image.src = original.href = link.href;
+      const isVector = link.pathname.endsWith(".svg");
+      original.href = link.href;
+      original.textContent = isVector ? "Open full-size SVG" : "Open image at full size";
+      image.hidden = isVector;
+      vector.hidden = !isVector;
+      if (isVector) {
+        vector.setAttribute("aria-label", title.textContent);
+        vector.data = link.href;
+      } else {
+        image.alt = link.querySelector("img").alt;
+        image.src = link.href;
+      }
       viewer.showModal();
     });
   });
   viewer.querySelector("button").addEventListener("click", () => viewer.close());
+  viewer.addEventListener("close", () => vector.removeAttribute("data"));
   viewer.addEventListener("click", event => {
     if (event.target !== viewer) return;
     const r = viewer.getBoundingClientRect();
