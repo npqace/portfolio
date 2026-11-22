@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f1">
+  <meta name="description" content="Meet Anh (Ace) Nguyen, a computing graduate in Da Nang pursuing product design. Explore a solo mobile redesign and two coding projects.">
+  <title>Ace Nguyen · Product design</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/studio.js" defer></script>
+</head>
+<body id="top" class="home">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="mast wrap">
+    <a class="wordmark" href="index.html" aria-label="Ace Nguyen, home">Ace Nguyen<span aria-hidden="true">.</span></a>
+    <nav aria-label="Main"><a href="#about">About</a><a href="#work">Work</a><a href="resume.html">Résumé</a>
+      <button type="button" class="theme-toggle" aria-label="Dark mode" aria-pressed="false" hidden></button>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="portrait-intro wrap" id="about" aria-labelledby="home-title">
+      <div class="bio">
+        <p class="eyebrow">Product design · Da Nang, Vietnam</p>
+        <h1 id="home-title"><span class="greeting">Hi, I’m</span>
+          <span class="hand-name"><span class="sr-only">Ace.</span>
+            <svg viewBox="0 0 230 120" aria-hidden="true" focusable="false">
+              <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <path class="pen pen-a" pathLength="1" stroke-width="5.8" d="M9 110C20 95 41 54 63 22C70 12 75 6 76 11C78 22 65 71 68 92Q69 103 76 99"/>
+                <path class="pen pen-bar" pathLength="1" stroke-width="4.4" d="M12 79Q42 69 81 61"/>
+                <path class="pen pen-ce" pathLength="1" stroke-width="5.2" d="M130 59C133 47 119 48 105 62C92 76 85 95 95 100C105 106 125 91 140 80C153 77 174 63 172 55C169 47 154 58 145 71C132 89 132 101 144 102C160 103 177 90 190 81Q197 76 202 75"/>
+                <path class="pen pen-dot" pathLength="1" stroke-width="7" d="M212 98l1.8-2.5"/>
+              </g>
+            </svg>
+          </span>
+        </h1>
+        <p class="bio-lede">I studied computing at the University of Greenwich. Now I’m looking for a UI/UX or product design internship.</p>
+        <p class="bio-detail">I like the precision of an interface and the freedom of a messy sketch. My taste in art leans a little dark, a little whimsical, and usually has a pencil line somewhere.</p>
+        <div class="bio-actions">
+          <a class="primary-link" href="#work">Explore my work</a>
+          <a class="secondary-link" href="assets/UIUXDesignIntern_NguyenPhuocQuynhAnh.pdf" download>Download my CV</a>
+          <a class="text-link" href="mailto:acenguyen.work@gmail.com">Email me</a>
+        </div>
+      </div>
+      <div class="portrait-stack" data-portraits>
+        <div class="portrait-field">
+          <button class="portrait-deck" type="button" aria-label="Change portrait of Ace" aria-describedby="portrait-description" disabled>
+            <span class="portrait-card" data-position="front">
+              <img src="assets/ace-outdoors.webp" alt="Ace smiling outdoors beside a tiled tower, wearing glasses and a blue shirt." width="930" height="1240" draggable="false" fetchpriority="high">
+              <i class="handles" aria-hidden="true"></i>
+            </span>
+            <span class="portrait-card" data-position="back" aria-hidden="true">
+              <img src="assets/ace-indoors.webp" alt="Ace wearing glasses and earphones in front of a warm wood-paneled wall." width="930" height="1240" draggable="false">
+              <i class="handles" aria-hidden="true"></i>
+            </span>
+          </button>
+          <span class="selection-pointer" aria-hidden="true"><img src="assets/cursor.svg" alt="" width="26" height="30"><span>Ace</span></span>
+        </div>
+        <span id="portrait-description" class="sr-only" aria-live="polite" aria-atomic="true">Ace smiling outdoors beside a tiled tower, wearing glasses and a blue shirt.</span>
+      </div>
+    </section>
+    <section class="featured" id="work" aria-labelledby="featured-heading">
+      <div class="wrap feature-grid">
+        <div class="feature-text"><p class="eyebrow">Selected work · Solo mobile redesign</p>
+          <h2 id="featured-heading">VietJusticIA<br><em>redesign.</em></h2>
+          <p>How does someone go from asking a legal question to checking its source and talking to a lawyer? I redesigned the mobile experience around that journey.</p>
+          <a class="text-link" href="vietjusticia.html">Read the design case study</a></div>
+        <a class="art-frame" href="vietjusticia.html" aria-label="Explore the VietJusticIA mobile redesign">
+          <span class="frame-name" aria-hidden="true">VietJusticIA / Mobile</span><span class="frame-photo"><img src="assets/work/hero.webp" width="1500" height="1050" alt="Hands holding a phone with the redesigned contract review open." loading="lazy"></span><i class="handles" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+    <section class="engineering wrap" id="coding" aria-labelledby="coding-heading">
+      <p class="eyebrow">Development</p><h2 id="coding-heading">Coding projects<span class="blue">.</span></h2>
+      <div class="project-list">
+        <article><p class="eyebrow">University final project · 2025</p><h3><a href="vietjusticia-platform.html">VietJusticIA platform</a></h3>
+          <p>The original build behind the redesign. A mobile legal assistant and a web portal connect document lookup, consultation requests and live chat.</p>
+          <a class="text-link" href="vietjusticia-platform.html">Explore the platform</a></article>
+        <article><p class="eyebrow">Club’s Week · 2024</p><h3><a href="vstep.html">VSTEP Q&amp;A Bot</a></h3>
+          <p>A bilingual exam assistant for students asking about the Vietnamese Standardized Test of English Proficiency.</p>
+          <a class="text-link" href="vstep.html">Explore the chatbot</a></article>
+      </div>
+    </section>
+  </main>
+  <footer class="contact"><div class="wrap contact-inner"><div><p class="eyebrow">Anh (Ace) Nguyen</p><h2>Say hello.</h2></div>
+    <div class="contact-links"><a href="mailto:acenguyen.work@gmail.com">Email Ace</a><a href="https://www.linkedin.com/in/npqace">LinkedIn</a><a href="resume.html">Résumé</a></div></div></footer>
+</body>
+</html>

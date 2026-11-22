@@ -1,0 +1,259 @@
+\documentclass[11pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=1.5 cm, % seperation between body and page edge from the top
+    bottom=1.5 cm, % seperation between body and page edge from the bottom
+    left=1.5 cm, % seperation between body and page edge from the left
+    right=1.5 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and foote 
+]{geometry} 
+\usepackage{titlesec} 
+\usepackage{tabularx} 
+\usepackage{array} 
+\usepackage[dvipsnames]{xcolor} 
+\definecolor{primaryColor}{RGB}{0, 0, 0} 
+\usepackage{enumitem} 
+\usepackage{fontawesome5} 
+\usepackage{amsmath} 
+\usepackage[
+    pdftitle={UI/UX and Product Design Intern - CV - Nguyen Phuoc Quynh Anh},
+    pdfauthor={Nguyen Phuoc Quynh Anh},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} 
+\usepackage[pscoord]{eso-pic} 
+\usepackage{calc} 
+\usepackage{bookmark} 
+\usepackage{lastpage} 
+\usepackage{changepage} 
+\usepackage{paracol} 
+\usepackage{ifthen} 
+\usepackage{needspace} 
+\usepackage{iftex} 
+
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% --- SETTINGS & SPACING ---
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} 
+\pagestyle{empty} 
+\setcounter{secnumdepth}{0} 
+\setlength{\parindent}{0pt} 
+\setlength{\topskip}{0pt} 
+\setlength{\columnsep}{0.15cm} 
+\pagenumbering{gobble} 
+
+% Section Formatting: Large & Bold
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\Large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+% Tighter Section Spacing
+\titlespacing{\section}{
+    -1pt
+}{
+    0.2 cm % Reduced top space 
+}{
+    0.1 cm % Reduced bottom space 
+} 
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} 
+
+% --- UPDATED: Tighter List Spacing ---
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.05 cm,  
+        parsep=0.05 cm,  
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} 
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.05 cm, 
+        parsep=0.05 cm, 
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} 
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0 cm + 0.00001 cm
+    }{
+        0 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} 
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} 
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} 
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.25}
+}{
+    \par\kern\topsep
+} 
+
+% Link Styling
+\let\hrefWithoutArrow\href
+\hypersetup{
+    colorlinks=true,        
+    linkcolor=blue,         
+    filecolor=blue,         
+    urlcolor=blue,          
+    citecolor=blue,         
+    pdfborder={0 0 1},      
+}
+\usepackage[normalem]{ulem}
+\renewcommand\UrlFont{\color{blue}\uline}
+
+% --- DOCUMENT CONTENT ---
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    % HEADER
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Nguyen Phuoc Quynh Anh\\
+        \fontsize{15 pt}{15 pt}\selectfont UI/UX \& Product Design Intern
+        
+        % \vspace{5 pt}
+
+        \normalsize
+        \mbox{Son Tra, Da Nang}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hypersetup{urlcolor=black}\hrefWithoutArrow{mailto:acenguyen.work@gmail.com}{acenguyen.work@gmail.com}}
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{0898 543 612}%
+        % \kern 5.0 pt%
+        % \AND%
+        % \kern 5.0 pt%
+        \\
+        % Replace the placeholder URL with your personal website address.
+        \mbox{\hypersetup{urlcolor=black}\hrefWithoutArrow{https://your-portfolio.example}{Portfolio}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hypersetup{urlcolor=black}\hrefWithoutArrow{https://linkedin.com/in/npqace}{linkedin.com/in/npqace}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hypersetup{urlcolor=black}\hrefWithoutArrow{https://github.com/npqace}{github.com/npqace}}%
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+    \section{Profile}
+    \begin{onecolentry}
+        Computing graduate seeking a UI/UX or product design internship. I use interface audits, user flows, and wireframes to design mobile experiences and draw on hands-on web and mobile development.
+    \end{onecolentry}
+
+    \section{Product Design}
+    \begin{twocolentry}{\textbf{Solo Product Designer}}
+        \textbf{\large VietJusticIA Mobile Redesign}
+    \end{twocolentry}
+    \begin{onecolentry}
+        Redesigned a Vietnamese legal assistance app so readers could check a cited law and decide whether to consult a lawyer.
+        \begin{highlights}
+            \item Audited the original app and counted four to five taps for basic tasks. Mapped user flows and wireframed bottom tabs that keep the library, assistant, lawyers, and requests within reach.
+            \item Added article navigation to the document reader and surfaced specialties and consultation fees in the lawyer directory so readers could compare options before choosing a lawyer.
+            \item Designed a review screen where readers can check the case brief, attached chat, citations, and fee before sending a consultation request.
+        \end{highlights}
+        \href{https://www.behance.net/gallery/258814687/VietJusticIA-AI-Legal-Tech-Mobile-App-Redesign}{View the redesign case study on Behance}
+    \end{onecolentry}
+
+    \section{Technical Projects}
+    \begin{twocolentry}{\textbf{May 2025 - Dec 2025}}
+        \textbf{VietJusticIA Platform} (University final project)
+    \end{twocolentry}
+    \begin{onecolentry}
+        Built the original React Native app and React/TypeScript portal. Readers could open cited documents from chat or request a lawyer. Accepting a request in the portal opened a shared conversation with typing indicators and read receipts.\par
+        \href{https://github.com/npqace/vietjusticia}{github.com/npqace/vietjusticia}
+    \end{onecolentry}
+
+    \vspace{0.20 cm}
+
+    \begin{twocolentry}{\textbf{Sep 2024}}
+        \textbf{VSTEP Q\&A Bot} (Club's Week)
+    \end{twocolentry}
+    \begin{onecolentry}
+        Built a JavaScript and Flask chat that matched students' exam questions to an English or Vietnamese FAQ. Students could submit with Enter and see a typing indicator while Gemini composed a reply from the matched entry.\par
+        \href{https://github.com/npqace/CW-Chatbot}{github.com/npqace/CW-Chatbot}
+    \end{onecolentry}
+
+    \section{Skills}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{Design} \enspace Interface audits, information architecture, user flows, wireframes, mobile UI, reusable components.
+            \item \textbf{Development} \enspace HTML, CSS, JavaScript, TypeScript, React, React Native, Git.
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Education}
+    \begin{twocolentry}{\textbf{Aug 2022 - Feb 2026}}
+        \textbf{BSc in Computing} \\
+        University of Greenwich - Da Nang campus
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{GPA} \enspace 3.95/4.0 (University of Greenwich GPA 74.82/100)
+            \item \textbf{Academic award} \enspace Top 3 Student of Spring Semester 2023 (Oct 2023)
+            \item \textbf{English} \enspace IELTS 7.0 and English-medium degree instruction
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Certifications}
+    \begin{twocolentry}{\textbf{Mar 2026}}
+        \textbf{Google UX Design} - Google via Coursera
+    \end{twocolentry}
+    \begin{onecolentry}
+        \href{https://coursera.org/share/84663e4ba7c925ee474db831edb788ce}{Credential}
+    \end{onecolentry}
+
+\end{document}

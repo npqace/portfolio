@@ -1,0 +1,42 @@
+.resume-wrap { width: min(calc(100% - 2 * var(--gutter)), 57rem); margin: 2.2rem auto 5rem; }
+.resume-tools { display: flex; justify-content: space-between; align-items: center; margin: 0 0 1rem; }
+.resume-tools span { font: 500 .84rem/1.4 "IBM Plex Mono", Consolas, monospace; text-transform: uppercase; letter-spacing: .06em; }
+.resume-tools a { display: inline-flex; min-height: 44px; align-items: center; font-weight: 600; color: var(--blue); }
+.resume-paper { color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); padding: clamp(1.25rem, 5vw, 4rem); font: 1rem/1.45 Arial, sans-serif; }
+.resume-header h1 { font-size: clamp(2.1rem, 4.5vw, 3.7rem); letter-spacing: -.06em; line-height: 1.05; }
+.target { font-size: 1.18em; margin-top: .35em; font-weight: 600; }
+.resume-contact { margin-top: .7em; line-height: 1.6; }
+.resume-contact span { margin: 0 .18em; }
+.summary { margin-top: .9em; }
+.resume-section { padding-top: 1.4em; }
+.resume-section h2 { font-size: .85em; text-transform: uppercase; letter-spacing: .11em; border-top: 1px solid var(--rule); padding-top: .74em; margin-bottom: .65em; }
+.entry { display: flex; align-items: baseline; justify-content: space-between; column-gap: 1em; }
+.entry h3 { font-size: 1.03em; line-height: 1.3; }
+.when { font-size: .91em; color: var(--muted); white-space: nowrap; }
+.entry.next { margin-top: .7em; }
+.resume-section p+p { margin-top: .15em; }
+.resume-section ul { margin: .45em 0 0; padding-left: 1.15em; }
+.resume-section li+li { margin-top: .22em; }
+.work-link,.credit { font-size: .94em; }
+.resume-paper a { color: var(--resume-link); }
+.resume-section .credit { margin-top: .65em; color: var(--muted); }
+@media screen and (max-width:700px) {
+  .resume-wrap { width: min(100% - 2rem, 57rem); margin-top: 1rem; }
+  .resume-paper { padding: 1.2rem; }
+  .entry { display: block; }
+  .when { margin: .2rem 0; }
+  .resume-contact { overflow-wrap: anywhere; }
+}
+@page { size: A4; margin: 14mm 17mm; }
+@media print {
+  :root,body { background: white; }
+  .skip,.mast,.resume-tools { display: none; }
+  .resume-wrap { width: auto; max-width: none; margin: 0; }
+  .resume-paper { padding: 0; border: 0; font-size: 11pt; line-height: 1.36; }
+  .resume-header h1 { font-size: 26pt; }
+  .target { font-size: 13.5pt; }
+  .resume-contact { font-size: 10pt; margin-top: .35em; }
+  .resume-section { padding-top: 1em; break-inside: avoid; }
+  .resume-section h2 { font-size: 10pt; letter-spacing: .035em; padding-top: .7em; margin-bottom: .5em; }
+  .resume-paper a { text-underline-offset: 2px; }
+}
