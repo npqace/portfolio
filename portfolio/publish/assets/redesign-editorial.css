@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;1,400&display=swap");
+
+.redesign main {
+  --sans: "Be Vietnam Pro", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --ghost-ink: rgb(30 64 175 / .06);
+  --glass-edge: rgb(255 255 255 / .85);
+  --glass-shadow: 0 26px 50px -28px rgb(30 64 175 / .4);
+  font-family: var(--sans);
+  overflow-x: clip;
+}
+
+:root[data-theme="dark"] .redesign main {
+  --ghost-ink: rgb(157 182 255 / .08);
+  --glass-edge: rgb(255 255 255 / .14);
+  --glass-shadow: 0 26px 50px -28px rgb(0 0 0 / .6);
+}
+
+.cover-copy h1 { font-weight: 600; letter-spacing: -.05em; }
+.cover-statement { line-height: 1.1; letter-spacing: -.02em; }
+.vj-section h2 { font-size: clamp(2.3rem,3.9vw,4.4rem); line-height: 1.08; letter-spacing: -.02em; }
+.journey-strip h3,.system-part h3 { letter-spacing: -.015em; }
+
+.redesign .vj-kicker.chapter-tag { margin-bottom: clamp(1.2rem,2.5vw,2rem); }
+.contents-head h2,.redesign .chapter-tag {
+  border-color: color-mix(in srgb,var(--blue) 20%,var(--rule));
+  box-shadow: 0 2px 4px #0f172a0f,0 10px 28px -8px #1e40af38;
+}
+.redesign .chapter-tag { gap: .8rem; padding: .5rem 1.1rem .5rem .95rem; font-size: clamp(1rem,1.45vw,1.25rem); }
+.contents-head h2::before,.redesign .chapter-tag::before { box-shadow: 0 0 14px #1e40afa6; }
+.redesign .chapter-tag span { font-size: .9rem; }
+.redesign :is(.architecture,.vj-outcome) .chapter-tag { border-color: #ffffff4d; background: #ffffff17; color: white; box-shadow: 0 10px 28px -8px #0006; }
+.redesign :is(.architecture,.vj-outcome) .chapter-tag::before { background: #d4a72c; box-shadow: 0 0 14px #d4a72caa; }
+.redesign :is(.architecture,.vj-outcome) .chapter-tag span { border-color: #ffffff40; color: var(--gold); }
+
+.vj-section { position: relative; isolation: isolate; }
+.vj-section:is(#brief,#audit,#structure,#flow,#system,#screens)::after,
+:is(.mockup-band,.vj-outcome) .vj-section::after {
+  position: absolute;
+  z-index: -1;
+  inset: clamp(.5rem,1.6vw,1.6rem) 0 auto auto;
+  color: var(--ghost-ink);
+  font: 800 clamp(5.5rem,17vw,16rem)/1 var(--sans);
+  letter-spacing: -.03em;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+#brief::after { content: "Overview" / ""; }
+#audit::after { content: "Audit" / ""; }
+#structure::after { content: "Sitemap" / ""; }
+#flow::after { content: "Flows" / ""; }
+#system::after { content: "System" / ""; }
+#screens::after { content: "Screens" / ""; }
+.mockup-band .vj-section::after { content: "Mockup" / ""; }
+.vj-outcome .vj-section::after { content: "Outcome" / ""; }
+.architecture,.vj-outcome { --ghost-ink: rgb(255 255 255 / .06); }
+
+.case-wash,.system-band {
+  background: radial-gradient(46rem 28rem at 100% 0%,color-mix(in srgb,var(--contents-blue) 62%,transparent),transparent 66%),
+    radial-gradient(40rem 26rem at 0% 100%,color-mix(in srgb,var(--contents-gold) 80%,transparent),transparent 66%);
+}
+.case-wash:has(#flow) {
+  background: radial-gradient(46rem 30rem at 0% 0%,color-mix(in srgb,var(--contents-blue) 50%,transparent),transparent 66%),
+    radial-gradient(42rem 28rem at 100% 100%,color-mix(in srgb,var(--contents-blue) 40%,transparent),transparent 66%);
+}
+#screens::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  inset: 0 calc(50% - 50vw);
+  pointer-events: none;
+  background: radial-gradient(44rem 28rem at 100% 6%,color-mix(in srgb,var(--contents-blue) 50%,transparent),transparent 66%),
+    radial-gradient(44rem 30rem at 0% 96%,color-mix(in srgb,var(--contents-gold) 80%,transparent),transparent 66%);
+}
+
+.audit-compare > label { background: color-mix(in srgb,var(--sheet) 65%,transparent); }
+.redesign .audit-gallery figure { background: transparent; border-color: transparent; }
+.redesign .audit-gallery .evidence,.wireframe-caption {
+  border: 1px solid var(--glass-edge);
+  border-radius: 1.35rem;
+  background: color-mix(in srgb,var(--sheet) 76%,transparent);
+  backdrop-filter: blur(14px);
+  box-shadow: inset 0 1px 0 var(--glass-edge),var(--glass-shadow);
+}
+.redesign .audit-gallery img { filter: drop-shadow(0 10px 18px rgb(15 23 42 / .22)); }
+.audit-gallery figcaption h3 { font-size: clamp(1.03rem,1.65vw,1.5rem); }
+.architecture .diagram-vector { padding: clamp(.8rem,2vw,1.6rem); border-radius: 1.25rem; background: #f4f7fd; color: #172342; }
+.architecture .diagram-vector a:hover { color: #1e40af; }
+.journey-strip li { background: color-mix(in srgb,var(--sheet) 74%,transparent); outline: 1px solid color-mix(in srgb,var(--rule) 70%,transparent); box-shadow: var(--glass-shadow); }
+.wireframe-backdrop { mask-image: linear-gradient(to bottom,transparent,#000 7%,#000 90%,transparent); }
+.wireframe-caption { background: color-mix(in srgb,var(--sheet) 94%,transparent); }
+.type-ghost { color: var(--ghost-ink); opacity: 1; letter-spacing: -.04em; }
+.screen-grid figure { box-shadow: var(--glass-shadow); }
+.mockup-band .mockup-photo { border-radius: clamp(1.1rem,2.4vw,2rem); box-shadow: 0 40px 80px -30px #000b; }
+.vj-outcome { background: radial-gradient(44rem 30rem at 10% 115%,#ffffff29,transparent 64%),linear-gradient(120deg,#1b3590,#2748bd 55%,#3d5fdb); }
+.vj-outcome a.text-link { min-height: 48px; padding: .7rem 1.5rem; border-radius: 999px; background: white; color: #1e40af; text-decoration: none; box-shadow: 0 14px 28px -14px #0008; }
+.vj-outcome a.text-link:hover { background: var(--gold); color: #1e40af; }
+
+@media (max-width: 700px) {
+  .vj-section:is(#brief,#audit,#structure,#flow,#system,#screens)::after,
+  :is(.mockup-band,.vj-outcome) .vj-section::after { font-size: clamp(3.6rem,12vw,5rem); }
+}

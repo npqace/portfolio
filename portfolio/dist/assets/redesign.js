@@ -62,7 +62,8 @@ if (typeof viewer.showModal === "function") {
     link.addEventListener("click", event => {
       if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
-      const label = link.closest("figure")?.querySelector("figcaption")?.textContent
+      const caption = link.closest("figure")?.querySelector("figcaption");
+      const label = caption?.querySelector("h3")?.textContent || caption?.textContent
         || link.getAttribute("aria-label").replace(/^Enlarge (the )?/i, "");
       title.textContent = label.charAt(0).toUpperCase() + label.slice(1);
       const isVector = link.pathname.endsWith(".svg");
