@@ -41,6 +41,7 @@
   });
   document.addEventListener("DOMContentLoaded", () => {
     button = document.querySelector(".theme-toggle");
+    if (!button) return;
     applyTheme();
     button.hidden = false;
     button.addEventListener("click", () => {

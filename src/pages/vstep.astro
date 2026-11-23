@@ -1,10 +1,13 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
+import ProcessPipeline from "../components/ProcessPipeline.astro";
+import { sitePath } from "../site-path";
 ---
 
 <SiteLayout
   title={"VSTEP Q&A Bot · Ace Nguyen"}
   description={"A bilingual VSTEP exam assistant developed for Club’s Week. See the chat interface and how it finds a relevant answer."}
+  bodyClass="case-study-page"
 >
   <main id="main" class="project-page">
     <section class="case-intro wrap" aria-labelledby="case-title">
@@ -17,18 +20,18 @@ import SiteLayout from "../layouts/SiteLayout.astro";
     <section class="wrap chapter" id="chat">
       <div class="chapter-heading"><p class="eyebrow">Chat interface</p><h2>Ask in the language you use.</h2></div>
       <div class="chapter-prose"><p>Students can send a question with Enter or the send button. Their message appears immediately. A typing indicator stays on screen while a reply is being prepared, and the conversation scrolls to the newest message.</p></div>
-      <a class="evidence wide bot-image" href="assets/work/vstep.webp" aria-label="Enlarge the Club’s Week chat interface"><img src="assets/work/vstep.webp" width="1632" height="850" alt="The VSTEP welcome message and question field beside the Greenwich AI Innovation Community logo and robot mascot." loading="lazy"></a>
+      <a class="evidence wide bot-image" href={sitePath("assets/work/vstep.webp")} aria-label="Enlarge the Club’s Week chat interface"><img src={sitePath("assets/work/vstep.webp")} width="1632" height="850" alt="The VSTEP welcome message and question field beside the Greenwich AI Innovation Community logo and robot mascot." loading="lazy"></a>
     </section>
     <section class="structure" id="retrieval"><div class="wrap chapter">
       <div class="chapter-heading"><p class="eyebrow">Answer lookup</p><h2>From an exam FAQ to a reply.</h2></div>
-      <div class="chapter-prose"><p>At startup, Flask loads the Excel workbook and builds a separate TF–IDF index for each language. Both sheets contain 30 questions. All 30 English rows and 25 Vietnamese rows have an answer.</p>
+      <div class="chapter-prose"><p>At startup, Flask loads the Excel workbook and builds a separate TF-IDF index for each language. Both sheets contain 30 questions. All 30 English rows and 25 Vietnamese rows have an answer.</p>
       <p>Each request sends one question. Gemini receives that question and the selected FAQ answer, with instructions to stay on VSTEP topics and reply in the detected language.</p></div>
-      <ol class="flow" aria-label="VSTEP question and answer flow">
-        <li><span class="flow-label">Send</span><h3>Question to Flask</h3><p>The browser posts the typed question to <code>/query/</code> and shows a typing indicator.</p></li>
-        <li><span class="flow-label">Route</span><h3>Greeting or FAQ</h3><p>Messages containing recognized greetings such as “hello” or “xin chào” get a canned reply. Other messages go to the FAQ lookup.</p></li>
-        <li><span class="flow-label">Match</span><h3>Closest question</h3><p>A check for Vietnamese characters selects the sheet. The bot compares TF–IDF scores by cosine similarity and takes the top result.</p></li>
-        <li><span class="flow-label">Reply</span><h3>Gemini response</h3><p>The matched answer and original question become the model context. The reply appears in the chat.</p></li>
-      </ol>
+      <ProcessPipeline label="VSTEP question and answer flow" steps={[
+        { label: "Send", title: "Question to Flask", description: "The browser posts the typed question to /query/ and shows a typing indicator." },
+        { label: "Route", title: "Greeting or FAQ", description: "Messages containing recognized greetings such as “hello” or “xin chào” get a canned reply. Other messages go to the FAQ lookup." },
+        { label: "Match", title: "Closest question", description: "A check for Vietnamese characters selects the sheet. The bot compares TF-IDF scores by cosine similarity and takes the top result." },
+        { label: "Reply", title: "Gemini response", description: "The matched answer and original question become the model context. The reply appears in the chat." },
+      ]} />
       <p class="flow-note">The character check can send unaccented Vietnamese to the English sheet. The lookup always takes the top row, even if the match is weak or its answer cell is blank.</p>
     </div></section>
     <section class="wrap chapter" id="example">
@@ -42,5 +45,5 @@ import SiteLayout from "../layouts/SiteLayout.astro";
       </dl>
     </section>
   </main>
-  <footer class="footer wrap"><a href="vietjusticia-platform.html">Explore the VietJusticIA platform</a><a href="index.html#work">All work</a></footer>
+  <footer class="footer wrap"><a href={sitePath("vietjusticia-platform.html")}>Explore the VietJusticIA platform</a><a href={sitePath("#work")}>All work</a></footer>
 </SiteLayout>

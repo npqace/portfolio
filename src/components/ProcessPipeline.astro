@@ -1,0 +1,47 @@
+---
+import { sitePath } from "../site-path";
+import "../styles/process.css";
+
+interface Step {
+  label: string;
+  title: string;
+  description: string;
+  screen?: { image: string; vector: string; alt: string; height: number };
+}
+
+interface Props {
+  label: string;
+  steps: Step[];
+}
+
+const { label, steps } = Astro.props;
+---
+
+<ol class="process-pipeline" aria-label={label} role="list" data-reveal="pipeline" style={`--step-count: ${steps.length}`}>
+  {steps.map(({ label, title, description, screen }, index) => (
+    <li class="process-step" style={`--card-delay: ${index * 220}ms; --line-delay: ${index * 220 + 120}ms`}>
+      <div class="process-card" tabindex="0">
+        <p class="eyebrow process-tag">{String(index + 1).padStart(2, "0")} · {label}</p>
+        <h3>{title}</h3>
+        <p class="process-description">{description}</p>
+        {screen && (
+          <a class="process-screen" data-enlarge href={sitePath(screen.vector)} aria-label={`Enlarge: ${screen.alt}`}>
+            <img src={sitePath(screen.image)} alt={screen.alt} width="700" height={screen.height} loading="lazy" decoding="async">
+          </a>
+        )}
+      </div>
+      {index < steps.length - 1 && (
+        <>
+          <svg class="process-connector process-connector--horizontal" viewBox="0 0 28 16" aria-hidden="true" focusable="false">
+            <path pathLength="1" d="M1 8H26L21 3M26 8L21 13" />
+          </svg>
+          <svg class="process-connector process-connector--vertical" viewBox="0 0 16 20" aria-hidden="true" focusable="false">
+            <path pathLength="1" d="M8 1V18L3 13M8 18L13 13" />
+          </svg>
+        </>
+      )}
+    </li>
+  ))}
+</ol>
+
+<script src="../scripts/case-motion.js"></script>

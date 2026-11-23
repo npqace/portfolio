@@ -1,0 +1,19 @@
+---
+import { sitePath } from "../site-path";
+
+interface Props {
+  title: string;
+  src: string;
+  description: string;
+  width: number;
+  height: number;
+  minWidth: number;
+}
+
+const { title, src, description, width, height, minWidth } = Astro.props;
+const url = sitePath(src);
+---
+
+<div class="diagram-scroll" data-reveal="diagram" role="region" aria-label={title} tabindex="0">
+  <img src={url} alt={description} width={width} height={height} style={`--diagram-min: ${minWidth}px`} loading="lazy" decoding="async">
+</div>

@@ -1,0 +1,11 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { sitePath } from "../site-path";
+---
+
+<SiteLayout title="404 - Page not found · Ace Nguyen" description="This page could not be found." page="not-found">
+  <main id="main" class="not-found wrap">
+    <h1>404 - Page not found.</h1>
+    <a class="text-link" href={sitePath()}>Back to the homepage</a>
+  </main>
+</SiteLayout>

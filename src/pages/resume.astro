@@ -1,23 +1,22 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
+import { sitePath } from "../site-path";
+import "../styles/resume.css";
 ---
 
 <SiteLayout
-  title={"Anh (Ace) Nguyen · Design internship résumé"}
-  description={"Design internship résumé for Anh (Ace) Nguyen, a computing graduate and solo designer of the VietJusticIA mobile redesign."}
-  page={"resume"}
+  title="Anh (Ace) Nguyen · CV"
+  description="Design internship CV for Anh (Ace) Nguyen, a computing graduate and solo designer of the VietJusticIA mobile redesign."
+  page="cv"
 >
-  <Fragment slot="head">
-    <link rel="stylesheet" href="assets/resume.css">
-  </Fragment>
   <main class="resume-wrap" id="resume">
-    <div class="resume-tools"><span>Résumé</span><a href="assets/UIUXDesignIntern_NguyenPhuocQuynhAnh.pdf" download>Download PDF</a></div>
-    <article class="resume-paper" aria-label="Design internship résumé">
+    <div class="resume-tools"><span>CV</span><a href={sitePath("assets/CV_NguyenPhuocQuynhAnh.pdf")} download>Download CV</a></div>
+    <article class="resume-paper" aria-label="Design internship CV">
       <header class="resume-header">
-        <h1>Nguyen Phuoc Quynh Anh</h1>
+        <h1><span lang="vi">Nguyễn Phước Quỳnh Anh</span> <span class="cv-alias">Anh (Ace) Nguyen</span></h1>
         <p class="target">UI/UX &amp; Product Design Intern</p>
         <p class="resume-contact">Son Tra, Da Nang <span aria-hidden="true">&middot;</span> <a href="mailto:acenguyen.work@gmail.com">acenguyen.work@gmail.com</a> <span aria-hidden="true">&middot;</span> <a href="tel:0898543612">0898 543 612</a><br>
-          <a href="index.html">Portfolio</a> <span aria-hidden="true">&middot;</span> <a href="https://linkedin.com/in/npqace">linkedin.com/in/npqace</a> <span aria-hidden="true">&middot;</span> <a href="https://github.com/npqace">github.com/npqace</a></p>
+          <a href={sitePath()}>Portfolio</a> <span aria-hidden="true">&middot;</span> <a href="https://linkedin.com/in/npqace">linkedin.com/in/npqace</a> <span aria-hidden="true">&middot;</span> <a href="https://github.com/npqace">github.com/npqace</a></p>
       </header>
       <section class="resume-section">
         <h2>Profile</h2>

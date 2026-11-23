@@ -1,14 +1,22 @@
 ---
+import '../styles/site.css';
+import themeScript from '../scripts/theme.js?raw';
+import { sitePath } from '../site-path';
+
 interface Props {
   title: string;
   description: string;
-  page?: 'home' | 'resume' | 'project';
+  page?: 'home' | 'cv' | 'project' | 'not-found';
   bodyClass?: string;
 }
 
 const { title, description, page = 'project', bodyClass } = Astro.props;
-const homeLink = page === 'home' ? '' : 'index.html';
-const isResume = page === 'resume';
+const home = sitePath();
+const homeLink = page === 'home' ? '' : home;
+const isCV = page === 'cv';
+const isNotFound = page === 'not-found';
+const pageUrl = new URL(page === 'home' ? home : Astro.url.pathname, Astro.site).href;
+const previewImage = new URL(sitePath('assets/work/hero.webp'), Astro.site).href;
 ---
 
 <!doctype html>
@@ -18,21 +26,33 @@ const isResume = page === 'resume';
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f6f1">
   <meta name="description" content={description}>
+  {isNotFound && <meta name="robots" content="noindex">}
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content={pageUrl}>
+  <meta property="og:image" content={previewImage}>
+  <meta property="og:image:alt" content="VietJusticIA mobile redesign shown on a phone">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content={previewImage}>
   <title>{title}</title>
-  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <script is:inline src="assets/theme.js"></script>
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="icon" href={sitePath('assets/mark.svg')} type="image/svg+xml">
+  <script is:inline set:html={themeScript}></script>
   <slot name="head" />
 </head>
-<body id={isResume ? undefined : 'top'} class={bodyClass}>
-  <a class="skip" href={isResume ? '#resume' : '#main'}>{isResume ? 'Skip to résumé' : 'Skip to content'}</a>
-  <header class="mast wrap">
-    <a class="wordmark" href="index.html" aria-label="Ace Nguyen, home">Ace Nguyen<span aria-hidden="true">.</span></a>
+<body id={isCV ? undefined : 'top'} class={bodyClass}>
+  {!isNotFound && <a class="skip" href={isCV ? '#resume' : '#main'}>{isCV ? 'Skip to CV' : 'Skip to content'}</a>}
+  {!isNotFound && <header class="mast wrap">
+    <a class="wordmark" href={home} aria-label="Ace Nguyen, home">Ace Nguyen<span aria-hidden="true">.</span></a>
     <nav aria-label="Main">
-      <a href={`${homeLink}#about`}>About</a><a href={`${homeLink}#work`}>Work</a><a href="resume.html" aria-current={isResume ? 'page' : undefined}>Résumé</a>
+      <a href={`${homeLink}#about`}>About</a><a href={`${homeLink}#work`}>Work</a><a href={sitePath('resume.html')} aria-current={isCV ? 'page' : undefined}>CV</a>
       <button type="button" class="theme-toggle" aria-label="Dark mode" aria-pressed="false" hidden></button>
     </nav>
-  </header>
+  </header>}
   <slot />
+  <script src="../scripts/back-to-top.js"></script>
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" tabindex="-1"><span aria-hidden="true">↑</span> TOP</button>
 </body>
 </html>

@@ -4,6 +4,7 @@
 .resume-tools a { display: inline-flex; min-height: 44px; align-items: center; font-weight: 600; color: var(--blue); }
 .resume-paper { color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); padding: clamp(1.25rem, 5vw, 4rem); font: 1rem/1.45 Arial, sans-serif; }
 .resume-header h1 { font-size: clamp(2.1rem, 4.5vw, 3.7rem); letter-spacing: -.06em; line-height: 1.05; }
+.cv-alias { display: block; margin-top: .25em; font-size: .5em; font-weight: 500; letter-spacing: -.025em; }
 .target { font-size: 1.18em; margin-top: .35em; font-weight: 600; }
 .resume-contact { margin-top: .7em; line-height: 1.6; }
 .resume-contact span { margin: 0 .18em; }
