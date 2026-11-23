@@ -1,0 +1,38 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  page?: 'home' | 'resume' | 'project';
+  bodyClass?: string;
+}
+
+const { title, description, page = 'project', bodyClass } = Astro.props;
+const homeLink = page === 'home' ? '' : 'index.html';
+const isResume = page === 'resume';
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f1">
+  <meta name="description" content={description}>
+  <title>{title}</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <script is:inline src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/site.css">
+  <slot name="head" />
+</head>
+<body id={isResume ? undefined : 'top'} class={bodyClass}>
+  <a class="skip" href={isResume ? '#resume' : '#main'}>{isResume ? 'Skip to résumé' : 'Skip to content'}</a>
+  <header class="mast wrap">
+    <a class="wordmark" href="index.html" aria-label="Ace Nguyen, home">Ace Nguyen<span aria-hidden="true">.</span></a>
+    <nav aria-label="Main">
+      <a href={`${homeLink}#about`}>About</a><a href={`${homeLink}#work`}>Work</a><a href="resume.html" aria-current={isResume ? 'page' : undefined}>Résumé</a>
+      <button type="button" class="theme-toggle" aria-label="Dark mode" aria-pressed="false" hidden></button>
+    </nav>
+  </header>
+  <slot />
+</body>
+</html>

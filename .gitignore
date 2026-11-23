@@ -1,3 +1,6 @@
 /.vj-*.jpg
 /debug.log
 /local-archive/
+/node_modules/
+/.astro/
+/dist/

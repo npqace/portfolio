@@ -1,23 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Design internship résumé for Anh (Ace) Nguyen, a computing graduate and solo designer of the VietJusticIA mobile redesign.">
-  <meta name="theme-color" content="#f8f6f1">
-  <title>Anh (Ace) Nguyen · Design internship résumé</title>
-  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <script src="assets/theme.js"></script>
-  <link rel="stylesheet" href="assets/site.css">
-  <link rel="stylesheet" href="assets/resume.css">
-</head>
-<body>
-  <a class="skip" href="#resume">Skip to résumé</a>
-  <header class="mast wrap">
-    <a class="wordmark" href="index.html" aria-label="Ace Nguyen, home">Ace Nguyen<span aria-hidden="true">.</span></a>
-    <nav aria-label="Main"><a href="index.html#about">About</a><a href="index.html#work">Work</a><a aria-current="page" href="resume.html">Résumé</a>
-      <button type="button" class="theme-toggle" aria-label="Dark mode" aria-pressed="false" hidden></button>
-    </nav>
-  </header>
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+---
+
+<SiteLayout
+  title={"Anh (Ace) Nguyen · Design internship résumé"}
+  description={"Design internship résumé for Anh (Ace) Nguyen, a computing graduate and solo designer of the VietJusticIA mobile redesign."}
+  page={"resume"}
+>
+  <Fragment slot="head">
+    <link rel="stylesheet" href="assets/resume.css">
+  </Fragment>
   <main class="resume-wrap" id="resume">
     <div class="resume-tools"><span>Résumé</span><a href="assets/UIUXDesignIntern_NguyenPhuocQuynhAnh.pdf" download>Download PDF</a></div>
     <article class="resume-paper" aria-label="Design internship résumé">
@@ -74,4 +66,4 @@
       </section>
     </article>
   </main>
-</body></html>
+</SiteLayout>

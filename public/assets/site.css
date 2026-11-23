@@ -95,7 +95,6 @@ button { font: inherit; color: inherit; }
 .hand-name svg { display: block; width: 100%; overflow: visible; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 .bio-lede { max-width: 36ch; font-size: clamp(1.15rem,1.65vw,1.6rem); line-height: 1.34; letter-spacing: -.025em; }
-.bio-detail { max-width: 45ch; color: var(--muted); margin-top: 1rem; font-size: clamp(1rem,1.2vw,1.12rem); }
 .bio-actions { flex-wrap: wrap; gap: .6rem 1.6rem; margin-top: 1.65rem; }
 .primary-link,.secondary-link,.text-link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; width: fit-content; font-weight: 600; }
 .primary-link { padding: .65rem 1.25rem; color: var(--paper); background: var(--ink); border-radius: 3px; text-decoration: none; transition: transform .15s ease, background .15s ease; }
@@ -127,6 +126,47 @@ button { font: inherit; color: inherit; }
 .selection-pointer img { width: 1.5rem; }
 .selection-pointer span { display: block; margin: -.2rem 0 0 .95rem; padding: .12rem .52rem; border-radius: 0 .18rem .18rem; background: var(--blue); color: var(--on-blue); font-size: .85rem; font-weight: 600; }
 .portrait-deck.is-dragging + .selection-pointer { opacity: 0; }
+.about {
+  --about-heading-size: clamp(2.8rem,5.5vw,6rem);
+  display: grid;
+  grid-template-columns: minmax(0,.84fr) minmax(0,1.16fr);
+  gap: clamp(2rem,6vw,7rem);
+  border-top: 1px solid var(--rule);
+  padding-block: clamp(3.5rem,7vw,7rem);
+}
+.about-intro { display: flex; flex-direction: column; }
+.about h2 {
+  margin-bottom: 1.4rem;
+  font-size: var(--about-heading-size);
+  font-weight: 650;
+  line-height: 1;
+  letter-spacing: -.067em;
+  text-box-trim: trim-start;
+  text-box-edge: cap alphabetic;
+}
+.about-period { display: inline-block; width: .13em; height: .13em; margin-inline-start: .075em; overflow: hidden; color: transparent; background: var(--blue); }
+.about-intro p { max-width: 45ch; }
+.about-intro p+p { margin-top: .85rem; }
+.about-resume { margin-top: auto; padding-top: .75rem; align-items: flex-end; text-decoration-thickness: 1px; }
+.about-resume > span { margin-bottom: -.3em; text-box-trim: trim-end; text-box-edge: cap alphabetic; }
+.about-details { margin-top: calc(var(--about-heading-size) * .13); }
+@supports (text-box-trim: trim-start) and (text-box-edge: cap alphabetic) {
+  .about-resume > span { margin-bottom: 0; }
+  .about-details { margin-top: 0; }
+}
+.about-details > div { display: grid; grid-template-columns: 8rem minmax(0,1fr); align-items: baseline; gap: .4rem 1.25rem; border-top: 1px solid var(--rule); padding-block: 1.1rem; }
+.about-details > div:last-child { border-bottom: 1px solid var(--rule); }
+.about-details > div > dt { color: var(--muted); font: 500 .9rem/1.5 "IBM Plex Mono", Consolas, monospace; }
+.about-languages {
+  display: grid;
+  grid-template-columns: minmax(100px, auto) 1fr;
+  column-gap: 24px;
+  row-gap: 8px;
+}
+.about-subtitle { color: var(--muted); }
+.skill-group + .skill-group { margin-top: 1rem; }
+.skill-pills { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; padding: 0; margin: .45rem 0 0; }
+.skill-pills li { max-width: 100%; padding: .2rem .65rem; border: 1px solid var(--rule); border-radius: 999px; background: var(--panel); font-size: .9rem; line-height: 1.4; }
 .featured { background: var(--panel); border-block: 1px solid var(--rule); }
 .feature-grid,.case-intro,.chapter { display: grid; column-gap: clamp(2rem,6vw,7rem); }
 .feature-grid { grid-template-columns: .84fr 1.16fr; align-items: center; padding-block: clamp(4.5rem,9vw,9rem); }
@@ -211,12 +251,13 @@ button { font: inherit; color: inherit; }
 @media (max-width:700px) {
   .mast { min-height: 4.25rem; gap: .5rem; }
   .mast nav { gap: .85rem; font-size: .9rem; }
-  .portrait-intro,.feature-grid,.project-list,.case-intro,.chapter { grid-template-columns: 1fr; }
+  .portrait-intro,.about,.feature-grid,.project-list,.case-intro,.chapter { grid-template-columns: 1fr; }
+  .about-details { margin-top: 0; }
+  .about-details > div { grid-template-columns: 1fr; }
   .portrait-intro { min-height: calc(100svh - 4.25rem); gap: 2.4rem; padding-block: 2.4rem 2.8rem; }
   .bio h1 { font-size: clamp(3.7rem,13vw,6rem); margin: .9rem 0 1.15rem; }
   .bio h1 .greeting,.hand-name { display: inline-block; }
   .hand-name { width: 2.12em; margin: -.12em 0 -.08em; vertical-align: -.12em; }
-  .bio-detail { margin-top: .6rem; }
   .bio-actions { margin-top: 1rem; }
   .portrait-stack { width: min(77%,21rem); }
   .portrait-deck { aspect-ratio: 1.08; }
@@ -251,8 +292,8 @@ button { font: inherit; color: inherit; }
   .evidence { overflow: hidden; }
   .evidence img { transition: transform .34s ease; }
   .evidence:is(:hover,:focus-visible) img { transform: scale(1.018); }
-  .bio .eyebrow,.bio h1,.bio-lede,.bio-detail,.bio-actions,.case-intro { animation: arrive .55s both; }
-  .bio h1 { animation-delay: .06s; }.bio-lede { animation-delay: .12s; }.bio-detail { animation-delay: .16s; }.bio-actions { animation-delay: .2s; }
+  .bio .eyebrow,.bio h1,.bio-lede,.bio-actions,.case-intro { animation: arrive .55s both; }
+  .bio h1 { animation-delay: .06s; }.bio-lede { animation-delay: .12s; }.bio-actions { animation-delay: .2s; }
   .portrait-field { animation: place-photo .7s cubic-bezier(.2,.72,.2,1) both; }
   @supports (animation-timeline: scroll()) {
     body:has(.chapter-nav)::before { content: ""; position: fixed; inset: 0 0 auto; height: 2px; background: var(--blue); z-index: 3; transform-origin: left; animation: reading linear both; animation-timeline: scroll(); }
