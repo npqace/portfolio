@@ -4,6 +4,69 @@ import { sitePath } from "../site-path";
 import "../styles/redesign.css";
 import ProcessPipeline from "../components/ProcessPipeline.astro";
 import CaseDiagram from "../components/CaseDiagram.astro";
+
+const journeyChapters = [
+  {
+    id: "access", kicker: "01 · Access", title: "Access & Account", watermark: "Access",
+    description: "New readers can create and verify an account. Returning readers can sign in or recover their password.",
+    rows: [
+      { label: "New user", screens: [
+        ["welcome", "Welcome", "Introduction to VietJusticIA with options to continue or sign in."],
+        ["sign-up", "Create an account", "Account form for a name, phone number, email and password."],
+        ["verify-account", "Verify phone", "Six-digit verification code fields and a resend option."],
+      ] },
+      { label: "Returning / recovery", screens: [
+        ["sign-in", "Welcome back", "Sign-in form with a password recovery link."],
+        ["reset-password", "Reset password", "Email field to request a password reset link."],
+        ["new-password", "Create new password", "New password and confirmation fields with requirements."],
+      ] },
+    ],
+  },
+  {
+    id: "assistant", kicker: "02 · Assistant", title: "Legal Assistant", watermark: "Assistant",
+    description: "The assistant cites the law in its answers. Readers can revisit a conversation and inspect the article it cites.",
+    rows: [
+      { label: "Ask & verify", screens: [
+        ["new-conversation", "Ask a legal question", "New conversation with suggested legal topics and a question field."],
+        ["contract-answer", "Answer with inline sources", "A contract question and an answer with links to the cited statutes."],
+      ] },
+      { label: "Revisit & audit", screens: [
+        ["history", "Saved conversation history", "Past conversations grouped into pinned, recently opened and sent to lawyer."],
+        ["statute-reader", "Inspect source statute", "Labor Code reader with article navigation and the cited passage."],
+      ] },
+    ],
+  },
+  {
+    id: "lookup", kicker: "03 · Lookup", title: "Law & Procedure Lookup", watermark: "Lookup",
+    description: "Statutes and administrative procedures share an entry point. Each has filters and detail views suited to the information it contains.",
+    rows: [
+      { label: "Laws", screens: [
+        ["legal-documents", "Browse legal documents", "Legal document cards showing titles, numbers and validity status."],
+        ["document-filters", "Filter by authority & status", "Filters for validity, legal domain, hierarchy and effective period."],
+      ] },
+      { label: "Procedures", screens: [
+        ["procedures", "Administrative procedures", "Procedure cards showing the responsible agency, fee and processing time."],
+        ["procedure-filters", "Filter procedures", "Filters for submission method, handling agency and expected processing time."],
+        ["procedure-schema", "Step-by-step schema", "Labor dispute mediation timeline and required document templates."],
+      ] },
+    ],
+  },
+  {
+    id: "handoff", kicker: "04 · Handover", title: "Specialist Handover", watermark: "Handover",
+    description: "A reviewed brief carries the question, sources and conversation into a consultation. Readers can track requests and compare verified specialists.",
+    rows: [
+      { label: "Connect", screens: [
+        ["requests", "Consultation requests", "Open and closed consultation requests showing their stages and latest activity."],
+        ["specialist", "Matched legal specialist", "Verified lawyer profile with practice areas, reviews and consultation fee."],
+      ] },
+      { label: "Collaborate", screens: [
+        ["handover", "Case context handover", "Case brief with the attached conversation and suggested specialists."],
+        ["lawyer-chat", "1-on-1 lawyer chat", "Conversation with a lawyer and the original case brief pinned above it."],
+        ["directory", "Verified directory", "Specialist directory with practice areas, locations and consultation fees."],
+      ] },
+    ],
+  },
+];
 ---
 
 <SiteLayout
@@ -15,6 +78,7 @@ import CaseDiagram from "../components/CaseDiagram.astro";
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&amp;display=swap">
   </Fragment>
   <script src="../scripts/redesign.js"></script>
+  <script src="../scripts/continuous-journey.js"></script>
   <main id="main">
     <section class="case-intro wrap redesign-intro" aria-labelledby="case-title">
       <div>
@@ -66,9 +130,9 @@ import CaseDiagram from "../components/CaseDiagram.astro";
             <ul>
               <li><a href="#system"><span aria-hidden="true">06</span>Visual system</a></li>
               <li><a href="#access"><span aria-hidden="true">07</span>Access &amp; account</a></li>
-              <li><a href="#assistant"><span aria-hidden="true">08</span>AI assistance</a></li>
-              <li><a href="#lookup"><span aria-hidden="true">09</span>Legal lookup</a></li>
-              <li><a href="#handoff"><span aria-hidden="true">10</span>Specialists &amp; cases</a></li>
+              <li><a href="#assistant"><span aria-hidden="true">08</span>Legal Assistant</a></li>
+              <li><a href="#lookup"><span aria-hidden="true">09</span>Law &amp; Procedure Lookup</a></li>
+              <li><a href="#handoff"><span aria-hidden="true">10</span>Specialist Handover</a></li>
             </ul>
           </div>
           <div>
@@ -205,37 +269,48 @@ import CaseDiagram from "../components/CaseDiagram.astro";
         </div>
       </section>
     </div></section>
-    <section class="editorial-section wrap" id="screens">
-      <div class="vj-heading"><div><p class="eyebrow">Final mobile UI</p><h2>Inside VietJusticIA.</h2></div><p>Follow the graduate from a first sign-in to a consultation. Select a screen for a closer look.</p></div>
-      <nav class="screen-index" aria-label="Screen collections"><a href="#access">Access &amp; account</a><a href="#assistant">AI assistance</a><a href="#lookup">Legal lookup</a><a href="#handoff">Specialists &amp; cases</a></nav>
-      <section class="screen-group" id="access" aria-label="Access &amp; account"><h3 class="chapter-tag"><span>07</span>Access &amp; account</h3><p>A shared account layout carries the reader through registration, verification and password recovery.</p><div class="screen-grid">
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/welcome.svg")} aria-label="Introduction to the service with options to continue or sign in."><a href={sitePath("assets/work/redesign/vectors/welcome.svg")}>Introduction to the service with options to continue or sign in.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/welcome.svg")} aria-label="Enlarge screen: Welcome">Welcome</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/sign-up.svg")} aria-label="Account form for a name, phone number, email and password."><a href={sitePath("assets/work/redesign/vectors/sign-up.svg")}>Account form for a name, phone number, email and password.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/sign-up.svg")} aria-label="Enlarge screen: Create an account">Create an account</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/verify-account.svg")} aria-label="Six-digit verification code with a resend option."><a href={sitePath("assets/work/redesign/vectors/verify-account.svg")}>Six-digit verification code with a resend option.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/verify-account.svg")} aria-label="Enlarge screen: Verify a phone">Verify a phone</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/sign-in.svg")} aria-label="Returning reader sign-in form with password recovery."><a href={sitePath("assets/work/redesign/vectors/sign-in.svg")}>Returning reader sign-in form with password recovery.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/sign-in.svg")} aria-label="Enlarge screen: Sign in">Sign in</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/reset-password.svg")} aria-label="Email field to request a reset link."><a href={sitePath("assets/work/redesign/vectors/reset-password.svg")}>Email field to request a reset link.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/reset-password.svg")} aria-label="Enlarge screen: Reset a password">Reset a password</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/new-password.svg")} aria-label="Password and confirmation fields with requirements."><a href={sitePath("assets/work/redesign/vectors/new-password.svg")}>Password and confirmation fields with requirements.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/new-password.svg")} aria-label="Enlarge screen: Set a new password">Set a new password</a></figcaption></figure>
-      </div></section>
-      <section class="screen-group" id="assistant" aria-label="AI assistance"><h3 class="chapter-tag"><span>08</span>AI assistance</h3><p>A suggested question starts the conversation. The answer links back to the law, and a handover sheet gathers the brief, citations and lawyer matches.</p><div class="screen-grid">
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/new-conversation.svg")} aria-label="New conversation with suggested legal topics."><a href={sitePath("assets/work/redesign/vectors/new-conversation.svg")}>New conversation with suggested legal topics.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/new-conversation.svg")} aria-label="Enlarge screen: Start a question">Start a question</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/contract-answer.svg")} aria-label="A graduate’s first-contract question and the assistant’s cited reply."><a href={sitePath("assets/work/redesign/vectors/contract-answer.svg")}>A graduate’s first-contract question and the assistant’s cited reply.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/contract-answer.svg")} aria-label="Enlarge screen: Read the answer">Read the answer</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/handover.svg")} aria-label="Case brief, attached conversation and specialist choices before sending."><a href={sitePath("assets/work/redesign/vectors/handover.svg")}>Case brief, attached conversation and specialist choices before sending.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/handover.svg")} aria-label="Enlarge screen: Review the brief">Review the brief</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/history.svg")} aria-label="Chat history grouped into pinned, sent to lawyer and recent conversations."><a href={sitePath("assets/work/redesign/vectors/history.svg")}>Chat history grouped into pinned, sent to lawyer and recent conversations.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/history.svg")} aria-label="Enlarge screen: Reopen a conversation">Reopen a conversation</a></figcaption></figure>
-      </div></section>
-      <section class="screen-group" id="lookup" aria-label="Legal lookup"><h3 class="chapter-tag"><span>09</span>Legal lookup</h3><p>Statutes and administrative procedures share an entry point. Each has its own filters and detail view, so readers can move from a rule to the steps for acting on it.</p><div class="screen-grid">
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/legal-documents.svg")} aria-label="Legal documents with titles, numbers and validity status."><a href={sitePath("assets/work/redesign/vectors/legal-documents.svg")}>Legal documents with titles, numbers and validity status.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/legal-documents.svg")} aria-label="Enlarge screen: Find a statute">Find a statute</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/document-filters.svg")} aria-label="Filters for validity, legal domain, hierarchy and effective period."><a href={sitePath("assets/work/redesign/vectors/document-filters.svg")}>Filters for validity, legal domain, hierarchy and effective period.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/document-filters.svg")} aria-label="Enlarge screen: Filter documents">Filter documents</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/statute-reader.svg")} aria-label="Labor Code reader with article navigation and cited passages."><a href={sitePath("assets/work/redesign/vectors/statute-reader.svg")}>Labor Code reader with article navigation and cited passages.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/statute-reader.svg")} aria-label="Enlarge screen: Read an article">Read an article</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/procedures.svg")} aria-label="Administrative procedure cards showing the agency, fee and processing time."><a href={sitePath("assets/work/redesign/vectors/procedures.svg")}>Administrative procedure cards showing the agency, fee and processing time.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/procedures.svg")} aria-label="Enlarge screen: Find a procedure">Find a procedure</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/procedure-filters.svg")} aria-label="Filters for submission method, handling agency and processing time."><a href={sitePath("assets/work/redesign/vectors/procedure-filters.svg")}>Filters for submission method, handling agency and processing time.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/procedure-filters.svg")} aria-label="Enlarge screen: Filter procedures">Filter procedures</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/procedure-schema.svg")} aria-label="Labor dispute mediation timeline and required document templates."><a href={sitePath("assets/work/redesign/vectors/procedure-schema.svg")}>Labor dispute mediation timeline and required document templates.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/procedure-schema.svg")} aria-label="Enlarge screen: Follow the steps">Follow the steps</a></figcaption></figure>
-      </div></section>
-      <section class="screen-group" id="handoff" aria-label="Specialists &amp; cases"><h3 class="chapter-tag"><span>10</span>Specialists &amp; cases</h3><p>Readers can compare practice areas, verification, reviews and fees before sending a request. After acceptance, the brief stays with the lawyer chat.</p><div class="screen-grid">
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/directory.svg")} aria-label="Specialist directory with practice areas, locations and consultation fees."><a href={sitePath("assets/work/redesign/vectors/directory.svg")}>Specialist directory with practice areas, locations and consultation fees.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/directory.svg")} aria-label="Enlarge screen: Compare lawyers">Compare lawyers</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/specialist.svg")} aria-label="Lawyer profile with verification, reviews, specialties and consultation fee."><a href={sitePath("assets/work/redesign/vectors/specialist.svg")}>Lawyer profile with verification, reviews, specialties and consultation fee.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/specialist.svg")} aria-label="Enlarge screen: View a specialist">View a specialist</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/requests.svg")} aria-label="Active and closed requests with stages and latest activity."><a href={sitePath("assets/work/redesign/vectors/requests.svg")}>Active and closed requests with stages and latest activity.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/requests.svg")} aria-label="Enlarge screen: Track the case">Track the case</a></figcaption></figure>
-        <figure><object class="vector-art phone-vector" type="image/svg+xml" data={sitePath("assets/work/redesign/vectors/lawyer-chat.svg")} aria-label="One-to-one lawyer chat with the original case brief pinned above it."><a href={sitePath("assets/work/redesign/vectors/lawyer-chat.svg")}>One-to-one lawyer chat with the original case brief pinned above it.</a></object><figcaption><a class="vector-expand" data-enlarge href={sitePath("assets/work/redesign/vectors/lawyer-chat.svg")} aria-label="Enlarge screen: Continue the conversation">Continue the conversation</a></figcaption></figure>
-      </div></section>
+    <section class="editorial-section wrap journey-continuous" id="continuous-journey" aria-labelledby="journey-heading">
+      <svg class="journey-line-overlay" aria-hidden="true" focusable="false">
+        <path class="journey-path-progress" />
+        <circle class="journey-path-tip" r="5" fill="#1d4ed8" />
+      </svg>
+      <div class="vj-heading journey-intro" id="screens">
+        <div><p class="eyebrow">Final mobile UI</p><h2 id="journey-heading">Continuous Journey</h2></div>
+        <p>Follow the redesign from account setup through legal research and a consultation.</p>
+      </div>
+      <nav class="screen-index" aria-label="Journey chapters">
+        {journeyChapters.map(({ id, title }) => <a href={`#${id}`}>{title}</a>)}
+      </nav>
+      {journeyChapters.map(({ id, kicker, title, watermark, description, rows }) => (
+        <section class="journey-chapter" id={id} aria-labelledby={`${id}-heading`}>
+          <header class="journey-chapter-header">
+            <span class="journey-watermark" aria-hidden="true">{watermark}</span>
+            <div class="journey-chapter-copy">
+              <p class="eyebrow">{kicker}</p>
+              <h3 id={`${id}-heading`}>{title}</h3>
+              <p>{description}</p>
+            </div>
+          </header>
+          <div class="journey-rows">
+            {rows.map(({ label, screens }, rowIndex) => (
+              <div class="journey-row-group">
+                <p class="eyebrow journey-row-label">{label}</p>
+                <div class="journey-row" data-journey-columns={screens.length} style={`--journey-columns: ${screens.length}`}>
+                  {screens.map(([file, name, alt], column) => (
+                    <div class="journey-screen" style={`--journey-stagger: ${column * 44}px`}>
+                      <figure class="journey-step" data-journey-step data-journey-first={file === "welcome" ? "" : undefined}>
+                        <img class="journey-phone" src={sitePath(`assets/work/redesign/vectors/${file}.svg`)}
+                          alt={alt} width="393" height="852" loading="lazy" decoding="async">
+                        <figcaption><span class="eyebrow journey-step-index">{String((rowIndex ? rows[0].screens.length : 0) + column + 1).padStart(2, "0")} ·</span> {name}</figcaption>
+                      </figure>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
     </section>
     <section class="editorial-band" id="device-mockup" aria-labelledby="mockup-title"><div class="editorial-section wrap vj-split">
       <div><p class="eyebrow chapter-tag"><span>11</span>Device mockup</p><h2 id="mockup-title">VietJusticIA on mobile.</h2></div>
