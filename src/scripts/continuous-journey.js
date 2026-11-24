@@ -12,7 +12,6 @@ const steps = [...journey.querySelectorAll("[data-journey-step]")].map(card => (
   card,
   frame: card.querySelector(".journey-phone"),
   shell: card.parentElement,
-  row: card.closest(".journey-row"),
 }));
 let pathStartY = 0;
 let pathEndY = 0;
@@ -27,17 +26,15 @@ function point(x, y) {
 function measureStep(step, bounds) {
   // The shell supplies the layout coordinates while its child animates.
   const rect = step.shell.getBoundingClientRect();
-  const height = step.frame.offsetHeight;
+  const height = parseFloat(getComputedStyle(step.frame).height);
   const top = rect.top - bounds.top;
-  step.triggerY = top + height * .25;
+  step.triggerY = top + height * .28;
 
   return {
     center: rect.left + rect.width / 2 - bounds.left,
     top,
     middle: top + height * .5,
     bottom: top + height,
-    row: step.row,
-    rowTop: step.shell.offsetTop,
   };
 }
 
@@ -64,13 +61,12 @@ function layoutPath() {
     const previous = phones[index - 1];
     if (!previous || singleColumn.matches) {
       descend(phone.center, phone.middle);
-    } else if (previous.row === phone.row && previous.rowTop === phone.rowTop) {
+    } else if (Math.abs(phone.middle - previous.middle) < 160 && phone.center > previous.center) {
       const halfway = (from.x + phone.center) * .5;
       append(phone.center, phone.middle, point(halfway, from.y), point(halfway, phone.middle));
     } else {
-      descend(previous.center, previous.bottom);
-      const spineY = (previous.bottom + phone.middle) * .5;
-      descend(bounds.width * .52, spineY, .55);
+      const spineY = (previous.middle + phone.middle) * .5;
+      descend(bounds.width * .5, spineY, .55);
       descend(phone.center, phone.middle, .55);
     }
   });
